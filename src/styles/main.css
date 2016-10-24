@@ -1,11 +1,15 @@
 
 /*************/
 
+.container{
+
+}
+
 section{
 	padding-left: 8%;
 	padding-right: 8%;
-	padding-top: 3%;
-	padding-bottom: 3%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 footer{
@@ -32,6 +36,19 @@ hr {
 Typography
 
 *************/
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+p,
+.speaker-title,
+.secondary-speaker-title,
+.name,
+.keynote,
+.session-description{
+	font-family: 'Karla', sans-serif;
+}
 
 h1,
 h5,
@@ -68,7 +85,7 @@ h6{
 p.tagline{
 	font-size: 1.65rem;
 	font-weight: 400;
-	max-width: 550px;
+	max-width: 600px;
 	margin: 0 auto;
 } 
 
@@ -119,11 +136,12 @@ span.speaker-title,
 }
 
 .primary-speaker-img{
-	max-width: 190px
+	max-width: 190px;
+	margin-bottom: .5rem;
 }
 
 .secondary-speaker-img{
-	margin-bottom: .75rem;
+	margin-bottom: .9rem;
 	max-width: 180px;
 }
 
