@@ -34,28 +34,6 @@ h2.section-title{
 	padding-bottom: 2rem;  
 }
 
-h4.keynote{
-	font-weight: 700;
-	color: #fff;
-	margin-top: 1rem;
-}
-
-span.name{
-	font-weight: 700;
-	font-size: 1.2rem;
-	color: #fff;
-	margin-top: 1rem;
-}
-
-span.speaker-title,
-.speaker-desc{
-	font-weight: 300;
-	font-size: 1.4rem;
-	color: #fff;
-	width: 80%;
-	margin: 1rem auto;
-}
-
 h5{
 	font-size: 1.5rem;
 	font-weight: 700;
@@ -92,6 +70,43 @@ Speaker Section
 
 *************/
 
+h4.keynote{
+	font-weight: 700;
+	color: #fff;
+	margin-top: 1rem;
+}
+
+span.name{
+	font-weight: 700;
+	font-size: 1.2rem;
+	color: #fff;
+	margin-top: 1rem;
+}
+
+span.speaker-title,
+.speaker-desc,
+.secondary-speaker-title{
+	font-weight: 300;
+	font-size: 1.3rem;
+	color: #fff;
+	margin: 0 auto;
+}
+
+.speaker-desc{
+	margin-top: 1rem;
+}
+
 .speaker-section{
 	background: #01a940;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.primary-speaker-section{
+	margin-top: 3rem;
+	margin-bottom: 6rem;
+}
+
+.secondary-speaker-section{
+	margin-bottom: 4rem;
 }
