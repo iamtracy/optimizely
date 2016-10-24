@@ -1,6 +1,13 @@
 
 /*************/
 
+section{
+	padding-left: 8%;
+	padding-right: 8%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
 footer{
 	padding-top: 3rem;
 	padding-bottom: 3rem;
@@ -10,6 +17,9 @@ footer{
 	max-width: 175px;
 }
 
+hr {
+  background-color: #000;
+}
 /*************/
 
 /*************
@@ -21,7 +31,8 @@ Typography
 h1,
 h5,
 p.tagline,
-h2.section-title{
+.section-title,
+.session-title{
 	color: #002bcc;
 }
 
@@ -29,14 +40,19 @@ h1{
 	font-size: 7.5rem;
 }
 
-h2.section-title{
-	padding-top: 2rem;
-	padding-bottom: 2rem;  
+h4{
+	font-weight: 500;
 }
 
 h5{
 	font-size: 1.5rem;
 	font-weight: 700;
+}
+
+h6{
+	font-size: 1.3rem;
+	font-weight: 400;
+	line-height: 1.7rem;
 }
 
 p.tagline{
@@ -98,8 +114,6 @@ span.speaker-title,
 
 .speaker-section{
 	background: #01a940;
-	padding-left: 8%;
-	padding-right: 8%;
 }
 
 .primary-speaker-section{
@@ -109,4 +123,17 @@ span.speaker-title,
 
 .secondary-speaker-section{
 	margin-bottom: 4rem;
+}
+
+
+/*************
+
+Agenda and
+Sessions Section
+
+*************/
+
+.session-container{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
