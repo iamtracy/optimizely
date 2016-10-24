@@ -6,8 +6,8 @@
 }
 
 section{
-	padding-left: 8%;
-	padding-right: 8%;
+	padding-left: 7%;
+	padding-right: 7%;
 	padding-top: 5%;
 	padding-bottom: 5%;
 }
@@ -67,19 +67,9 @@ h2{
 	font-size: 2.75rem;
 }
 
-h4{
-	font-weight: 500;
-}
-
 h5{
 	font-size: 1.5rem;
 	font-weight: 700;
-}
-
-h6{
-	font-size: 1.3rem;
-	font-weight: 400;
-	line-height: 1.7rem;
 }
 
 p.tagline{
@@ -177,6 +167,23 @@ Sessions Section
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
+
+.session-title{
+	font-size: 1.3rem;
+}
+
+.session-time{
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+.session-description{
+	font-size: 1.1rem;
+	font-weight: 400;
+  line-height: 1.7rem;
+}
+
+
 
 /*************
 
