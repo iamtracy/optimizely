@@ -66,9 +66,9 @@ h6{
 }
 
 p.tagline{
-	font-size: 1.5rem;
+	font-size: 1.65rem;
 	font-weight: 400;
-	max-width: 500px;
+	max-width: 550px;
 	margin: 0 auto;
 } 
 
@@ -191,6 +191,10 @@ Section
 	padding-right: 5px;
 }
 
+.sponsor-img-container img{
+	border: 2px solid #ced2d5;
+}
+
 .trusted-company-img-section{
 	margin-top: 3.25rem;
 	padding-left: 10px;
@@ -198,7 +202,7 @@ Section
 }
 
 .trusted-company-img-row-first{
-	margin-bottom: .55rem;
+	margin-bottom: 1.75rem;
 }
 
 .trusted-company-img-container{
