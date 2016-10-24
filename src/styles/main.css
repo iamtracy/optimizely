@@ -1,0 +1,84 @@
+
+/*************/
+
+footer{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	background: #d3dbde;
+}
+.footer-logo{
+	max-width: 175px;
+}
+
+/*************/
+
+/*************
+
+Typography
+
+*************/
+
+h1,
+h5,
+p.tagline,
+h2.section-title{
+	color: #002bcc;
+}
+
+h1{
+	font-size: 7.5rem;
+}
+
+h2.section-title{
+	padding-top: 2rem;
+	padding-bottom: 2rem;  
+}
+
+h4.keynote{
+	font-weight: 700;
+	color: #fff;
+	margin-top: 1rem;
+}
+
+span.name{
+	font-weight: 700;
+	font-size: 1.2rem;
+	color: #fff;
+	margin-top: 1rem;
+}
+
+span.speaker-title,
+.speaker-desc{
+	font-weight: 300;
+	font-size: 1.4rem;
+	color: #fff;
+	width: 80%;
+	margin: 1rem auto;
+}
+
+h5{
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+p.tagline{
+	font-size: 1.5rem;
+	font-weight: 300;
+	width: 45%;
+	margin: 0 auto;
+} 
+
+p.tagline span{
+	color: #e84c19;
+	font-weight: 700;
+} 
+
+/*************
+
+Speaker Section
+
+*************/
+
+.speaker-section{
+	background: #01a940;
+}

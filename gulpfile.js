@@ -1,5 +1,8 @@
-var gulp = require('gulp');
-var server = require('gulp-server-livereload');
+var gulp   = require('gulp'),
+  	server = require('gulp-server-livereload'),
+  	concat = require('gulp-concat'),
+  	rename = require('gulp-rename'),
+  	uglify = require('gulp-uglify');
  
 gulp.task('serve', function() {
   gulp.src('./')
@@ -9,3 +12,17 @@ gulp.task('serve', function() {
       open: true
     }));
 });
+
+gulp.task('scripts', function() {
+  return gulp.src([
+  	'./src/scripts/jquery.js',
+  	'./src/scripts/tether.js',
+  	'./src/scripts/bootstrap.js',
+  	'./src/scripts/custom.js'
+  	])
+    .pipe(concat({ path: 'main.min.js', stat: { mode: 0666 }}))
+    .pipe(uglify())
+    .pipe(gulp.dest('./src/scripts'));
+});
+
+gulp.task('default', ['watch', 'scripts', 'images']);
