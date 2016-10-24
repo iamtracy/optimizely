@@ -1,0 +1,1893 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\tlee\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'gulp-csslint' ]
+2 info using npm@4.0.0
+3 info using node@v4.6.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData gulp-csslint
+8 silly fetchNamedPackageData gulp-csslint
+9 silly mapToRegistry name gulp-csslint
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'gulp-csslint',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'gulp-csslint',
+12 silly mapToRegistry   name: 'gulp-csslint',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/gulp-csslint
+14 verbose request uri https://registry.npmjs.org/gulp-csslint
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 12:38:54 PM
+17 verbose request id 94fb39d1884df2da
+18 verbose etag "A64RO2HOX67HGQ3TX0XAU1W0R"
+19 http request GET https://registry.npmjs.org/gulp-csslint
+20 http 304 https://registry.npmjs.org/gulp-csslint
+21 verbose headers { date: 'Mon, 24 Oct 2016 17:38:51 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   etag: '"A64RO2HOX67HGQ3TX0XAU1W0R"',
+21 verbose headers   age: '0',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-ord1733-ORD',
+21 verbose headers   'x-cache': 'HIT',
+21 verbose headers   'x-cache-hits': '1',
+21 verbose headers   'x-timer': 'S1477330731.023343,VS0,VE138',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Mon, 24 Oct 2016 17:38:51 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     etag: '"A64RO2HOX67HGQ3TX0XAU1W0R"',
+22 silly get     age: '0',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-ord1733-ORD',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '1',
+22 silly get     'x-timer': 'S1477330731.023343,VS0,VE138',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose etag https://registry.npmjs.org/gulp-csslint from cache
+24 verbose get saving gulp-csslint to C:\Users\tlee\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-csslint\.cache.json
+25 verbose correctMkdir C:\Users\tlee\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule gulp-csslint@1.0.0 checking installable status
+39 silly cache add args [ 'gulp-csslint', null ]
+40 verbose cache add spec gulp-csslint
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'gulp-csslint',
+41 silly cache add   scope: null,
+41 silly cache add   escapedName: 'gulp-csslint',
+41 silly cache add   name: 'gulp-csslint',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed gulp-csslint@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for gulp-csslint
+44 info addNameTag [ 'gulp-csslint', 'latest' ]
+45 silly mapToRegistry name gulp-csslint
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'gulp-csslint',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'gulp-csslint',
+48 silly mapToRegistry   name: 'gulp-csslint',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/gulp-csslint
+50 verbose addNameTag registry:https://registry.npmjs.org/gulp-csslint not in flight; fetching
+51 verbose get https://registry.npmjs.org/gulp-csslint not expired, no request
+52 silly addNameTag next cb for gulp-csslint with tag latest
+53 silly addNamed gulp-csslint@1.0.0
+54 verbose addNamed "1.0.0" is a plain semver version for gulp-csslint
+55 silly cache afterAdd gulp-csslint@1.0.0
+56 verbose afterAdd C:\Users\tlee\AppData\Roaming\npm-cache\gulp-csslint\1.0.0\package\package.json not in flight; writing
+57 verbose correctMkdir C:\Users\tlee\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+58 verbose afterAdd C:\Users\tlee\AppData\Roaming\npm-cache\gulp-csslint\1.0.0\package\package.json written
+59 silly fetchNamedPackageData csslint
+60 silly mapToRegistry name csslint
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry data Result {
+63 silly mapToRegistry   raw: 'csslint',
+63 silly mapToRegistry   scope: null,
+63 silly mapToRegistry   escapedName: 'csslint',
+63 silly mapToRegistry   name: 'csslint',
+63 silly mapToRegistry   rawSpec: '',
+63 silly mapToRegistry   spec: 'latest',
+63 silly mapToRegistry   type: 'tag' }
+64 silly mapToRegistry uri https://registry.npmjs.org/csslint
+65 silly fetchNamedPackageData rcloader
+66 silly mapToRegistry name rcloader
+67 silly mapToRegistry using default registry
+68 silly mapToRegistry registry https://registry.npmjs.org/
+69 silly mapToRegistry data Result {
+69 silly mapToRegistry   raw: 'rcloader',
+69 silly mapToRegistry   scope: null,
+69 silly mapToRegistry   escapedName: 'rcloader',
+69 silly mapToRegistry   name: 'rcloader',
+69 silly mapToRegistry   rawSpec: '',
+69 silly mapToRegistry   spec: 'latest',
+69 silly mapToRegistry   type: 'tag' }
+70 silly mapToRegistry uri https://registry.npmjs.org/rcloader
+71 silly fetchNamedPackageData through2
+72 silly mapToRegistry name through2
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry data Result {
+75 silly mapToRegistry   raw: 'through2',
+75 silly mapToRegistry   scope: null,
+75 silly mapToRegistry   escapedName: 'through2',
+75 silly mapToRegistry   name: 'through2',
+75 silly mapToRegistry   rawSpec: '',
+75 silly mapToRegistry   spec: 'latest',
+75 silly mapToRegistry   type: 'tag' }
+76 silly mapToRegistry uri https://registry.npmjs.org/through2
+77 verbose request uri https://registry.npmjs.org/csslint
+78 verbose request no auth needed
+79 info attempt registry request try #1 at 12:38:55 PM
+80 verbose etag "3R0ORATYFTSXTHRHBV542BOBC"
+81 http request GET https://registry.npmjs.org/csslint
+82 verbose request uri https://registry.npmjs.org/rcloader
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 12:38:55 PM
+85 verbose etag "HG684BKMIHNMAYPB51KKPUG"
+86 http request GET https://registry.npmjs.org/rcloader
+87 verbose request uri https://registry.npmjs.org/through2
+88 verbose request no auth needed
+89 info attempt registry request try #1 at 12:38:55 PM
+90 verbose etag "2EHLLHUYFWVG6XT37Q3Z03QKM"
+91 http request GET https://registry.npmjs.org/through2
+92 http 304 https://registry.npmjs.org/csslint
+93 verbose headers { date: 'Mon, 24 Oct 2016 17:38:51 GMT',
+93 verbose headers   via: '1.1 varnish',
+93 verbose headers   'cache-control': 'max-age=300',
+93 verbose headers   etag: '"3R0ORATYFTSXTHRHBV542BOBC"',
+93 verbose headers   age: '129',
+93 verbose headers   connection: 'keep-alive',
+93 verbose headers   'x-served-by': 'cache-ord1733-ORD',
+93 verbose headers   'x-cache': 'HIT',
+93 verbose headers   'x-cache-hits': '1',
+93 verbose headers   'x-timer': 'S1477330731.454797,VS0,VE0',
+93 verbose headers   vary: 'Accept-Encoding' }
+94 silly get cb [ 304,
+94 silly get   { date: 'Mon, 24 Oct 2016 17:38:51 GMT',
+94 silly get     via: '1.1 varnish',
+94 silly get     'cache-control': 'max-age=300',
+94 silly get     etag: '"3R0ORATYFTSXTHRHBV542BOBC"',
+94 silly get     age: '129',
+94 silly get     connection: 'keep-alive',
+94 silly get     'x-served-by': 'cache-ord1733-ORD',
+94 silly get     'x-cache': 'HIT',
+94 silly get     'x-cache-hits': '1',
+94 silly get     'x-timer': 'S1477330731.454797,VS0,VE0',
+94 silly get     vary: 'Accept-Encoding' } ]
+95 verbose etag https://registry.npmjs.org/csslint from cache
+96 verbose get saving csslint to C:\Users\tlee\AppData\Roaming\npm-cache\registry.npmjs.org\csslint\.cache.json
+97 verbose correctMkdir C:\Users\tlee\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+98 silly resolveWithNewModule csslint@1.0.3 checking installable status
+99 silly cache add args [ 'csslint@^1.0.2', null ]
+100 verbose cache add spec csslint@^1.0.2
+101 silly cache add parsed spec Result {
+101 silly cache add   raw: 'csslint@^1.0.2',
+101 silly cache add   scope: null,
+101 silly cache add   escapedName: 'csslint',
+101 silly cache add   name: 'csslint',
+101 silly cache add   rawSpec: '^1.0.2',
+101 silly cache add   spec: '>=1.0.2 <2.0.0',
+101 silly cache add   type: 'range' }
+102 silly addNamed csslint@>=1.0.2 <2.0.0
+103 verbose addNamed ">=1.0.2 <2.0.0" is a valid semver range for csslint
+104 silly addNameRange { name: 'csslint', range: '>=1.0.2 <2.0.0', hasData: false }
+105 silly mapToRegistry name csslint
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry https://registry.npmjs.org/
+108 silly mapToRegistry data Result {
+108 silly mapToRegistry   raw: 'csslint',
+108 silly mapToRegistry   scope: null,
+108 silly mapToRegistry   escapedName: 'csslint',
+108 silly mapToRegistry   name: 'csslint',
+108 silly mapToRegistry   rawSpec: '',
+108 silly mapToRegistry   spec: 'latest',
+108 silly mapToRegistry   type: 'tag' }
+109 silly mapToRegistry uri https://registry.npmjs.org/csslint
+110 verbose addNameRange registry:https://registry.npmjs.org/csslint not in flight; fetching
+111 verbose get https://registry.npmjs.org/csslint not expired, no request
+112 silly addNameRange number 2 { name: 'csslint', range: '>=1.0.2 <2.0.0', hasData: true }
+113 silly addNameRange versions [ 'csslint',
+113 silly addNameRange   [ '0.1.0',
+113 silly addNameRange     '0.2.0',
+113 silly addNameRange     '0.3.0',
+113 silly addNameRange     '0.3.1',
+113 silly addNameRange     '0.3.2',
+113 silly addNameRange     '0.4.0',
+113 silly addNameRange     '0.5.0',
+113 silly addNameRange     '0.6.0',
+113 silly addNameRange     '0.6.1',
+113 silly addNameRange     '0.7.0',
+113 silly addNameRange     '0.8.0',
+113 silly addNameRange     '0.8.1',
+113 silly addNameRange     '0.8.5',
+113 silly addNameRange     '0.9.0',
+113 silly addNameRange     '0.9.1',
+113 silly addNameRange     '0.9.2',
+113 silly addNameRange     '0.9.5',
+113 silly addNameRange     '0.9.6',
+113 silly addNameRange     '0.9.7',
+113 silly addNameRange     '0.9.8',
+113 silly addNameRange     '0.9.9',
+113 silly addNameRange     '0.9.10',
+113 silly addNameRange     '0.10.0',
+113 silly addNameRange     '1.0.0',
+113 silly addNameRange     '1.0.1',
+113 silly addNameRange     '1.0.2',
+113 silly addNameRange     '1.0.3' ] ]
+114 silly addNamed csslint@1.0.3
+115 verbose addNamed "1.0.3" is a plain semver version for csslint
+116 silly cache afterAdd csslint@1.0.3
+117 verbose afterAdd C:\Users\tlee\AppData\Roaming\npm-cache\csslint\1.0.3\package\package.json not in flight; writing
+118 verbose correctMkdir C:\Users\tlee\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+119 verbose afterAdd C:\Users\tlee\AppData\Roaming\npm-cache\csslint\1.0.3\package\package.json written
+120 http 304 https://registry.npmjs.org/rcloader
+121 verbose headers { date: 'Mon, 24 Oct 2016 17:38:51 GMT',
+121 verbose headers   via: '1.1 varnish',
+121 verbose headers   'cache-control': 'max-age=300',
+121 verbose headers   etag: '"HG684BKMIHNMAYPB51KKPUG"',
+121 verbose headers   age: '291',
+121 verbose headers   connection: 'keep-alive',
+121 verbose headers   'x-served-by': 'cache-ord1723-ORD',
+121 verbose headers   'x-cache': 'HIT',
+121 verbose headers   'x-cache-hits': '1',
+121 verbose headers   'x-timer': 'S1477330731.493037,VS0,VE0',
+121 verbose headers   vary: 'Accept-Encoding' }
+122 silly get cb [ 304,
+122 silly get   { date: 'Mon, 24 Oct 2016 17:38:51 GMT',
+122 silly get     via: '1.1 varnish',
+122 silly get     'cache-control': 'max-age=300',
+122 silly get     etag: '"HG684BKMIHNMAYPB51KKPUG"',
+122 silly get     age: '291',
+122 silly get     connection: 'keep-alive',
+122 silly get     'x-served-by': 'cache-ord1723-ORD',
+122 silly get     'x-cache': 'HIT',
+122 silly get     'x-cache-hits': '1',
+122 silly get     'x-timer': 'S1477330731.493037,VS0,VE0',
+122 silly get     vary: 'Accept-Encoding' } ]
+123 verbose etag https://registry.npmjs.org/rcloader from cache
+124 verbose get saving rcloader to C:\Users\tlee\AppData\Roaming\npm-cache\registry.npmjs.org\rcloader\.cache.json
+125 verbose correctMkdir C:\Users\tlee\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+126 silly resolveWithNewModule rcloader@0.2.1 checking installable status
+127 silly cache add args [ 'rcloader@^0.2.1', null ]
+128 verbose cache add spec rcloader@^0.2.1
+129 silly cache add parsed spec Result {
+129 silly cache add   raw: 'rcloader@^0.2.1',
+129 silly cache add   scope: null,
+129 silly cache add   escapedName: 'rcloader',
+129 silly cache add   name: 'rcloader',
+129 silly cache add   rawSpec: '^0.2.1',
+129 silly cache add   spec: '>=0.2.1 <0.3.0',
+129 silly cache add   type: 'range' }
+130 silly addNamed rcloader@>=0.2.1 <0.3.0
+131 verbose addNamed ">=0.2.1 <0.3.0" is a valid semver range for rcloader
+132 silly addNameRange { name: 'rcloader', range: '>=0.2.1 <0.3.0', hasData: false }
+133 silly mapToRegistry name rcloader
+134 silly mapToRegistry using default registry
+135 silly mapToRegistry registry https://registry.npmjs.org/
+136 silly mapToRegistry data Result {
+136 silly mapToRegistry   raw: 'rcloader',
+136 silly mapToRegistry   scope: null,
+136 silly mapToRegistry   escapedName: 'rcloader',
+136 silly mapToRegistry   name: 'rcloader',
+136 silly mapToRegistry   rawSpec: '',
+136 silly mapToRegistry   spec: 'latest',
+136 silly mapToRegistry   type: 'tag' }
+137 silly mapToRegistry uri https://registry.npmjs.org/rcloader
+138 verbose addNameRange registry:https://registry.npmjs.org/rcloader not in flight; fetching
+139 verbose get https://registry.npmjs.org/rcloader not expired, no request
+140 silly addNameRange number 2 { name: 'rcloader', range: '>=0.2.1 <0.3.0', hasData: true }
+141 silly addNameRange versions [ 'rcloader',
+141 silly addNameRange   [ '0.0.1', '0.1.0', '0.1.1', '0.1.2', '0.1.4', '0.2.0', '0.2.1' ] ]
+142 silly addNamed rcloader@0.2.1
+143 verbose addNamed "0.2.1" is a plain semver version for rcloader
+144 silly cache afterAdd rcloader@0.2.1
+145 verbose afterAdd C:\Users\tlee\AppData\Roaming\npm-cache\rcloader\0.2.1\package\package.json not in flight; writing
+146 verbose correctMkdir C:\Users\tlee\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+147 http 200 https://registry.npmjs.org/through2
+148 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+148 verbose headers   etag: '"BBXIFNFQJA7YC6EQ3TXE59L2Q"',
+148 verbose headers   'content-type': 'application/json',
+148 verbose headers   'content-encoding': 'gzip',
+148 verbose headers   'cache-control': 'max-age=300',
+148 verbose headers   'content-length': '7553',
+148 verbose headers   'accept-ranges': 'bytes',
+148 verbose headers   date: 'Mon, 24 Oct 2016 17:38:51 GMT',
+148 verbose headers   via: '1.1 varnish',
+148 verbose headers   age: '25',
+148 verbose headers   connection: 'keep-alive',
+148 verbose headers   'x-served-by': 'cache-ord1737-ORD',
+148 verbose headers   'x-cache': 'HIT',
+148 verbose headers   'x-cache-hits': '3',
+148 verbose headers   'x-timer': 'S1477330731.496961,VS0,VE0',
+148 verbose headers   vary: 'Accept-Encoding' }
+149 silly get cb [ 200,
+149 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+149 silly get     etag: '"BBXIFNFQJA7YC6EQ3TXE59L2Q"',
+149 silly get     'content-type': 'application/json',
+149 silly get     'content-encoding': 'gzip',
+149 silly get     'cache-control': 'max-age=300',
+149 silly get     'content-length': '7553',
+149 silly get     'accept-ranges': 'bytes',
+149 silly get     date: 'Mon, 24 Oct 2016 17:38:51 GMT',
+149 silly get     via: '1.1 varnish',
+149 silly get     age: '25',
+149 silly get     connection: 'keep-alive',
+149 silly get     'x-served-by': 'cache-ord1737-ORD',
+149 silly get     'x-cache': 'HIT',
+149 silly get     'x-cache-hits': '3',
+149 silly get     'x-timer': 'S1477330731.496961,VS0,VE0',
+149 silly get     vary: 'Accept-Encoding' } ]
+150 verbose get saving through2 to C:\Users\tlee\AppData\Roaming\npm-cache\registry.npmjs.org\through2\.cache.json
+151 verbose correctMkdir C:\Users\tlee\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+152 verbose afterAdd C:\Users\tlee\AppData\Roaming\npm-cache\rcloader\0.2.1\package\package.json written
+153 silly resolveWithNewModule through2@2.0.1 checking installable status
+154 silly cache add args [ 'through2@^2.0.1', null ]
+155 verbose cache add spec through2@^2.0.1
+156 silly cache add parsed spec Result {
+156 silly cache add   raw: 'through2@^2.0.1',
+156 silly cache add   scope: null,
+156 silly cache add   escapedName: 'through2',
+156 silly cache add   name: 'through2',
+156 silly cache add   rawSpec: '^2.0.1',
+156 silly cache add   spec: '>=2.0.1 <3.0.0',
+156 silly cache add   type: 'range' }
+157 silly addNamed through2@>=2.0.1 <3.0.0
+158 verbose addNamed ">=2.0.1 <3.0.0" is a valid semver range for through2
+159 silly addNameRange { name: 'through2', range: '>=2.0.1 <3.0.0', hasData: false }
+160 silly mapToRegistry name through2
+161 silly mapToRegistry using default registry
+162 silly mapToRegistry registry https://registry.npmjs.org/
+163 silly mapToRegistry data Result {
+163 silly mapToRegistry   raw: 'through2',
+163 silly mapToRegistry   scope: null,
+163 silly mapToRegistry   escapedName: 'through2',
+163 silly mapToRegistry   name: 'through2',
+163 silly mapToRegistry   rawSpec: '',
+163 silly mapToRegistry   spec: 'latest',
+163 silly mapToRegistry   type: 'tag' }
+164 silly mapToRegistry uri https://registry.npmjs.org/through2
+165 verbose addNameRange registry:https://registry.npmjs.org/through2 not in flight; fetching
+166 verbose get https://registry.npmjs.org/through2 not expired, no request
+167 silly addNameRange number 2 { name: 'through2', range: '>=2.0.1 <3.0.0', hasData: true }
+168 silly addNameRange versions [ 'through2',
+168 silly addNameRange   [ '0.0.0',
+168 silly addNameRange     '0.0.1',
+168 silly addNameRange     '0.0.2',
+168 silly addNameRange     '0.0.3',
+168 silly addNameRange     '0.0.4',
+168 silly addNameRange     '0.0.5',
+168 silly addNameRange     '0.1.0',
+168 silly addNameRange     '0.2.0',
+168 silly addNameRange     '0.2.1',
+168 silly addNameRange     '0.2.2',
+168 silly addNameRange     '0.2.3',
+168 silly addNameRange     '0.3.0',
+168 silly addNameRange     '0.4.0',
+168 silly addNameRange     '0.4.1',
+168 silly addNameRange     '1.0.0',
+168 silly addNameRange     '0.4.2',
+168 silly addNameRange     '0.5.0',
+168 silly addNameRange     '0.5.1',
+168 silly addNameRange     '0.6.0',
+168 silly addNameRange     '1.1.0',
+168 silly addNameRange     '0.6.1',
+168 silly addNameRange     '1.1.1',
+168 silly addNameRange     '0.6.2',
+168 silly addNameRange     '0.6.3',
+168 silly addNameRange     '0.6.4',
+168 silly addNameRange     '0.6.5',
+168 silly addNameRange     '2.0.0',
+168 silly addNameRange     '2.0.1' ] ]
+169 silly addNamed through2@2.0.1
+170 verbose addNamed "2.0.1" is a plain semver version for through2
+171 silly cache afterAdd through2@2.0.1
+172 verbose afterAdd C:\Users\tlee\AppData\Roaming\npm-cache\through2\2.0.1\package\package.json not in flight; writing
+173 verbose correctMkdir C:\Users\tlee\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+174 verbose afterAdd C:\Users\tlee\AppData\Roaming\npm-cache\through2\2.0.1\package\package.json written
+175 silly fetchNamedPackageData parserlib
+176 silly mapToRegistry name parserlib
+177 silly mapToRegistry using default registry
+178 silly mapToRegistry registry https://registry.npmjs.org/
+179 silly mapToRegistry data Result {
+179 silly mapToRegistry   raw: 'parserlib',
+179 silly mapToRegistry   scope: null,
+179 silly mapToRegistry   escapedName: 'parserlib',
+179 silly mapToRegistry   name: 'parserlib',
+179 silly mapToRegistry   rawSpec: '',
+179 silly mapToRegistry   spec: 'latest',
+179 silly mapToRegistry   type: 'tag' }
+180 silly mapToRegistry uri https://registry.npmjs.org/parserlib
+181 verbose request uri https://registry.npmjs.org/parserlib
+182 verbose request no auth needed
+183 info attempt registry request try #1 at 12:38:55 PM
+184 verbose etag "13DLGAGKHBTZE0M7MNNYXPTA5"
+185 http request GET https://registry.npmjs.org/parserlib
+186 http 304 https://registry.npmjs.org/parserlib
+187 verbose headers { date: 'Mon, 24 Oct 2016 17:38:51 GMT',
+187 verbose headers   via: '1.1 varnish',
+187 verbose headers   'cache-control': 'max-age=300',
+187 verbose headers   etag: '"13DLGAGKHBTZE0M7MNNYXPTA5"',
+187 verbose headers   age: '129',
+187 verbose headers   connection: 'keep-alive',
+187 verbose headers   'x-served-by': 'cache-ord1733-ORD',
+187 verbose headers   'x-cache': 'HIT',
+187 verbose headers   'x-cache-hits': '1',
+187 verbose headers   'x-timer': 'S1477330731.542298,VS0,VE0',
+187 verbose headers   vary: 'Accept-Encoding' }
+188 silly get cb [ 304,
+188 silly get   { date: 'Mon, 24 Oct 2016 17:38:51 GMT',
+188 silly get     via: '1.1 varnish',
+188 silly get     'cache-control': 'max-age=300',
+188 silly get     etag: '"13DLGAGKHBTZE0M7MNNYXPTA5"',
+188 silly get     age: '129',
+188 silly get     connection: 'keep-alive',
+188 silly get     'x-served-by': 'cache-ord1733-ORD',
+188 silly get     'x-cache': 'HIT',
+188 silly get     'x-cache-hits': '1',
+188 silly get     'x-timer': 'S1477330731.542298,VS0,VE0',
+188 silly get     vary: 'Accept-Encoding' } ]
+189 verbose etag https://registry.npmjs.org/parserlib from cache
+190 verbose get saving parserlib to C:\Users\tlee\AppData\Roaming\npm-cache\registry.npmjs.org\parserlib\.cache.json
+191 verbose correctMkdir C:\Users\tlee\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+192 silly resolveWithNewModule parserlib@1.0.0 checking installable status
+193 silly cache add args [ 'parserlib@~1.0.0', null ]
+194 verbose cache add spec parserlib@~1.0.0
+195 silly cache add parsed spec Result {
+195 silly cache add   raw: 'parserlib@~1.0.0',
+195 silly cache add   scope: null,
+195 silly cache add   escapedName: 'parserlib',
+195 silly cache add   name: 'parserlib',
+195 silly cache add   rawSpec: '~1.0.0',
+195 silly cache add   spec: '>=1.0.0 <1.1.0',
+195 silly cache add   type: 'range' }
+196 silly addNamed parserlib@>=1.0.0 <1.1.0
+197 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for parserlib
+198 silly addNameRange { name: 'parserlib', range: '>=1.0.0 <1.1.0', hasData: false }
+199 silly mapToRegistry name parserlib
+200 silly mapToRegistry using default registry
+201 silly mapToRegistry registry https://registry.npmjs.org/
+202 silly mapToRegistry data Result {
+202 silly mapToRegistry   raw: 'parserlib',
+202 silly mapToRegistry   scope: null,
+202 silly mapToRegistry   escapedName: 'parserlib',
+202 silly mapToRegistry   name: 'parserlib',
+202 silly mapToRegistry   rawSpec: '',
+202 silly mapToRegistry   spec: 'latest',
+202 silly mapToRegistry   type: 'tag' }
+203 silly mapToRegistry uri https://registry.npmjs.org/parserlib
+204 verbose addNameRange registry:https://registry.npmjs.org/parserlib not in flight; fetching
+205 verbose get https://registry.npmjs.org/parserlib not expired, no request
+206 silly addNameRange number 2 { name: 'parserlib', range: '>=1.0.0 <1.1.0', hasData: true }
+207 silly addNameRange versions [ 'parserlib',
+207 silly addNameRange   [ '0.1.5',
+207 silly addNameRange     '0.1.6',
+207 silly addNameRange     '0.1.8',
+207 silly addNameRange     '0.2.0',
+207 silly addNameRange     '0.2.1',
+207 silly addNameRange     '0.2.2',
+207 silly addNameRange     '0.2.3',
+207 silly addNameRange     '0.2.4',
+207 silly addNameRange     '0.2.5',
+207 silly addNameRange     '1.0.0' ] ]
+208 silly addNamed parserlib@1.0.0
+209 verbose addNamed "1.0.0" is a plain semver version for parserlib
+210 silly cache afterAdd parserlib@1.0.0
+211 verbose afterAdd C:\Users\tlee\AppData\Roaming\npm-cache\parserlib\1.0.0\package\package.json not in flight; writing
+212 verbose correctMkdir C:\Users\tlee\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+213 verbose afterAdd C:\Users\tlee\AppData\Roaming\npm-cache\parserlib\1.0.0\package\package.json written
+214 silly fetchNamedPackageData rcfinder
+215 silly mapToRegistry name rcfinder
+216 silly mapToRegistry using default registry
+217 silly mapToRegistry registry https://registry.npmjs.org/
+218 silly mapToRegistry data Result {
+218 silly mapToRegistry   raw: 'rcfinder',
+218 silly mapToRegistry   scope: null,
+218 silly mapToRegistry   escapedName: 'rcfinder',
+218 silly mapToRegistry   name: 'rcfinder',
+218 silly mapToRegistry   rawSpec: '',
+218 silly mapToRegistry   spec: 'latest',
+218 silly mapToRegistry   type: 'tag' }
+219 silly mapToRegistry uri https://registry.npmjs.org/rcfinder
+220 verbose request uri https://registry.npmjs.org/rcfinder
+221 verbose request no auth needed
+222 info attempt registry request try #1 at 12:38:55 PM
+223 verbose etag "UDRJZU8TLBTGPUDNTEIJQRIG"
+224 http request GET https://registry.npmjs.org/rcfinder
+225 http 304 https://registry.npmjs.org/rcfinder
+226 verbose headers { date: 'Mon, 24 Oct 2016 17:38:51 GMT',
+226 verbose headers   via: '1.1 varnish',
+226 verbose headers   'cache-control': 'max-age=300',
+226 verbose headers   etag: '"UDRJZU8TLBTGPUDNTEIJQRIG"',
+226 verbose headers   age: '200',
+226 verbose headers   connection: 'keep-alive',
+226 verbose headers   'x-served-by': 'cache-ord1723-ORD',
+226 verbose headers   'x-cache': 'HIT',
+226 verbose headers   'x-cache-hits': '1',
+226 verbose headers   'x-timer': 'S1477330731.668777,VS0,VE0',
+226 verbose headers   vary: 'Accept-Encoding' }
+227 silly get cb [ 304,
+227 silly get   { date: 'Mon, 24 Oct 2016 17:38:51 GMT',
+227 silly get     via: '1.1 varnish',
+227 silly get     'cache-control': 'max-age=300',
+227 silly get     etag: '"UDRJZU8TLBTGPUDNTEIJQRIG"',
+227 silly get     age: '200',
+227 silly get     connection: 'keep-alive',
+227 silly get     'x-served-by': 'cache-ord1723-ORD',
+227 silly get     'x-cache': 'HIT',
+227 silly get     'x-cache-hits': '1',
+227 silly get     'x-timer': 'S1477330731.668777,VS0,VE0',
+227 silly get     vary: 'Accept-Encoding' } ]
+228 verbose etag https://registry.npmjs.org/rcfinder from cache
+229 verbose get saving rcfinder to C:\Users\tlee\AppData\Roaming\npm-cache\registry.npmjs.org\rcfinder\.cache.json
+230 verbose correctMkdir C:\Users\tlee\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+231 silly resolveWithNewModule rcfinder@0.1.9 checking installable status
+232 silly cache add args [ 'rcfinder@^0.1.6', null ]
+233 verbose cache add spec rcfinder@^0.1.6
+234 silly cache add parsed spec Result {
+234 silly cache add   raw: 'rcfinder@^0.1.6',
+234 silly cache add   scope: null,
+234 silly cache add   escapedName: 'rcfinder',
+234 silly cache add   name: 'rcfinder',
+234 silly cache add   rawSpec: '^0.1.6',
+234 silly cache add   spec: '>=0.1.6 <0.2.0',
+234 silly cache add   type: 'range' }
+235 silly addNamed rcfinder@>=0.1.6 <0.2.0
+236 verbose addNamed ">=0.1.6 <0.2.0" is a valid semver range for rcfinder
+237 silly addNameRange { name: 'rcfinder', range: '>=0.1.6 <0.2.0', hasData: false }
+238 silly mapToRegistry name rcfinder
+239 silly mapToRegistry using default registry
+240 silly mapToRegistry registry https://registry.npmjs.org/
+241 silly mapToRegistry data Result {
+241 silly mapToRegistry   raw: 'rcfinder',
+241 silly mapToRegistry   scope: null,
+241 silly mapToRegistry   escapedName: 'rcfinder',
+241 silly mapToRegistry   name: 'rcfinder',
+241 silly mapToRegistry   rawSpec: '',
+241 silly mapToRegistry   spec: 'latest',
+241 silly mapToRegistry   type: 'tag' }
+242 silly mapToRegistry uri https://registry.npmjs.org/rcfinder
+243 verbose addNameRange registry:https://registry.npmjs.org/rcfinder not in flight; fetching
+244 verbose get https://registry.npmjs.org/rcfinder not expired, no request
+245 silly addNameRange number 2 { name: 'rcfinder', range: '>=0.1.6 <0.2.0', hasData: true }
+246 silly addNameRange versions [ 'rcfinder',
+246 silly addNameRange   [ '0.1.0',
+246 silly addNameRange     '0.1.1',
+246 silly addNameRange     '0.1.2',
+246 silly addNameRange     '0.1.3',
+246 silly addNameRange     '0.1.4',
+246 silly addNameRange     '0.1.5',
+246 silly addNameRange     '0.1.6',
+246 silly addNameRange     '0.1.7',
+246 silly addNameRange     '0.1.8',
+246 silly addNameRange     '0.1.9' ] ]
+247 silly addNamed rcfinder@0.1.9
+248 verbose addNamed "0.1.9" is a plain semver version for rcfinder
+249 silly cache afterAdd rcfinder@0.1.9
+250 verbose afterAdd C:\Users\tlee\AppData\Roaming\npm-cache\rcfinder\0.1.9\package\package.json not in flight; writing
+251 verbose correctMkdir C:\Users\tlee\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+252 verbose afterAdd C:\Users\tlee\AppData\Roaming\npm-cache\rcfinder\0.1.9\package\package.json written
+253 silly fetchNamedPackageData readable-stream
+254 silly mapToRegistry name readable-stream
+255 silly mapToRegistry using default registry
+256 silly mapToRegistry registry https://registry.npmjs.org/
+257 silly mapToRegistry data Result {
+257 silly mapToRegistry   raw: 'readable-stream',
+257 silly mapToRegistry   scope: null,
+257 silly mapToRegistry   escapedName: 'readable-stream',
+257 silly mapToRegistry   name: 'readable-stream',
+257 silly mapToRegistry   rawSpec: '',
+257 silly mapToRegistry   spec: 'latest',
+257 silly mapToRegistry   type: 'tag' }
+258 silly mapToRegistry uri https://registry.npmjs.org/readable-stream
+259 verbose request uri https://registry.npmjs.org/readable-stream
+260 verbose request no auth needed
+261 info attempt registry request try #1 at 12:38:55 PM
+262 verbose etag "CCKCVM7AJRG2NFRFL5SINMT9N"
+263 http request GET https://registry.npmjs.org/readable-stream
+264 http 200 https://registry.npmjs.org/readable-stream
+265 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+265 verbose headers   etag: '"A8S6PAG63XV00Q0R1MO116S8F"',
+265 verbose headers   'content-type': 'application/json',
+265 verbose headers   'content-encoding': 'gzip',
+265 verbose headers   'cache-control': 'max-age=300',
+265 verbose headers   'content-length': '8906',
+265 verbose headers   'accept-ranges': 'bytes',
+265 verbose headers   date: 'Mon, 24 Oct 2016 17:38:51 GMT',
+265 verbose headers   via: '1.1 varnish',
+265 verbose headers   age: '119',
+265 verbose headers   connection: 'keep-alive',
+265 verbose headers   'x-served-by': 'cache-ord1737-ORD',
+265 verbose headers   'x-cache': 'HIT',
+265 verbose headers   'x-cache-hits': '14',
+265 verbose headers   'x-timer': 'S1477330731.700945,VS0,VE0',
+265 verbose headers   vary: 'Accept-Encoding' }
+266 silly get cb [ 200,
+266 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+266 silly get     etag: '"A8S6PAG63XV00Q0R1MO116S8F"',
+266 silly get     'content-type': 'application/json',
+266 silly get     'content-encoding': 'gzip',
+266 silly get     'cache-control': 'max-age=300',
+266 silly get     'content-length': '8906',
+266 silly get     'accept-ranges': 'bytes',
+266 silly get     date: 'Mon, 24 Oct 2016 17:38:51 GMT',
+266 silly get     via: '1.1 varnish',
+266 silly get     age: '119',
+266 silly get     connection: 'keep-alive',
+266 silly get     'x-served-by': 'cache-ord1737-ORD',
+266 silly get     'x-cache': 'HIT',
+266 silly get     'x-cache-hits': '14',
+266 silly get     'x-timer': 'S1477330731.700945,VS0,VE0',
+266 silly get     vary: 'Accept-Encoding' } ]
+267 verbose get saving readable-stream to C:\Users\tlee\AppData\Roaming\npm-cache\registry.npmjs.org\readable-stream\.cache.json
+268 verbose correctMkdir C:\Users\tlee\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+269 silly resolveWithNewModule readable-stream@2.0.6 checking installable status
+270 silly cache add args [ 'readable-stream@~2.0.0', null ]
+271 verbose cache add spec readable-stream@~2.0.0
+272 silly cache add parsed spec Result {
+272 silly cache add   raw: 'readable-stream@~2.0.0',
+272 silly cache add   scope: null,
+272 silly cache add   escapedName: 'readable-stream',
+272 silly cache add   name: 'readable-stream',
+272 silly cache add   rawSpec: '~2.0.0',
+272 silly cache add   spec: '>=2.0.0 <2.1.0',
+272 silly cache add   type: 'range' }
+273 silly addNamed readable-stream@>=2.0.0 <2.1.0
+274 verbose addNamed ">=2.0.0 <2.1.0" is a valid semver range for readable-stream
+275 silly addNameRange { name: 'readable-stream',
+275 silly addNameRange   range: '>=2.0.0 <2.1.0',
+275 silly addNameRange   hasData: false }
+276 silly mapToRegistry name readable-stream
+277 silly mapToRegistry using default registry
+278 silly mapToRegistry registry https://registry.npmjs.org/
+279 silly mapToRegistry data Result {
+279 silly mapToRegistry   raw: 'readable-stream',
+279 silly mapToRegistry   scope: null,
+279 silly mapToRegistry   escapedName: 'readable-stream',
+279 silly mapToRegistry   name: 'readable-stream',
+279 silly mapToRegistry   rawSpec: '',
+279 silly mapToRegistry   spec: 'latest',
+279 silly mapToRegistry   type: 'tag' }
+280 silly mapToRegistry uri https://registry.npmjs.org/readable-stream
+281 verbose addNameRange registry:https://registry.npmjs.org/readable-stream not in flight; fetching
+282 verbose get https://registry.npmjs.org/readable-stream not expired, no request
+283 silly addNameRange number 2 { name: 'readable-stream',
+283 silly addNameRange   range: '>=2.0.0 <2.1.0',
+283 silly addNameRange   hasData: true }
+284 silly addNameRange versions [ 'readable-stream',
+284 silly addNameRange   [ '0.0.1',
+284 silly addNameRange     '0.0.2',
+284 silly addNameRange     '0.0.3',
+284 silly addNameRange     '0.0.4',
+284 silly addNameRange     '0.1.0',
+284 silly addNameRange     '0.2.0',
+284 silly addNameRange     '0.3.0',
+284 silly addNameRange     '0.3.1',
+284 silly addNameRange     '1.0.0',
+284 silly addNameRange     '1.0.1',
+284 silly addNameRange     '1.0.2',
+284 silly addNameRange     '1.0.15',
+284 silly addNameRange     '1.0.17',
+284 silly addNameRange     '1.1.7',
+284 silly addNameRange     '1.1.8',
+284 silly addNameRange     '1.1.9',
+284 silly addNameRange     '1.0.24',
+284 silly addNameRange     '1.0.25',
+284 silly addNameRange     '1.1.10',
+284 silly addNameRange     '1.0.25-1',
+284 silly addNameRange     '1.1.11',
+284 silly addNameRange     '1.0.26',
+284 silly addNameRange     '1.0.26-1',
+284 silly addNameRange     '1.1.11-1',
+284 silly addNameRange     '1.0.26-2',
+284 silly addNameRange     '1.1.12',
+284 silly addNameRange     '1.0.26-3',
+284 silly addNameRange     '1.0.26-4',
+284 silly addNameRange     '1.1.12-1',
+284 silly addNameRange     '1.0.27-1',
+284 silly addNameRange     '1.1.13-1',
+284 silly addNameRange     '1.0.31',
+284 silly addNameRange     '1.1.13',
+284 silly addNameRange     '1.0.32',
+284 silly addNameRange     '1.0.32-1',
+284 silly addNameRange     '1.0.33-1',
+284 silly addNameRange     '1.0.33-2',
+284 silly addNameRange     '1.0.33',
+284 silly addNameRange     '2.0.0',
+284 silly addNameRange     '2.0.1',
+284 silly addNameRange     '2.0.2',
+284 silly addNameRange     '2.0.3',
+284 silly addNameRange     '2.0.4',
+284 silly addNameRange     '2.0.5',
+284 silly addNameRange     '2.0.6',
+284 silly addNameRange     '1.0.34',
+284 silly addNameRange     '1.1.14',
+284 silly addNameRange     '2.1.0',
+284 silly addNameRange     '2.1.1',
+284 silly addNameRange     '2.1.2',
+284 silly addNameRange     '2.1.3',
+284 silly addNameRange     '2.1.4',
+284 silly addNameRange     '2.1.5' ] ]
+285 silly addNamed readable-stream@2.0.6
+286 verbose addNamed "2.0.6" is a plain semver version for readable-stream
+287 silly cache afterAdd readable-stream@2.0.6
+288 verbose afterAdd C:\Users\tlee\AppData\Roaming\npm-cache\readable-stream\2.0.6\package\package.json not in flight; writing
+289 verbose correctMkdir C:\Users\tlee\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+290 verbose afterAdd C:\Users\tlee\AppData\Roaming\npm-cache\readable-stream\2.0.6\package\package.json written
+291 silly fetchNamedPackageData isarray
+292 silly mapToRegistry name isarray
+293 silly mapToRegistry using default registry
+294 silly mapToRegistry registry https://registry.npmjs.org/
+295 silly mapToRegistry data Result {
+295 silly mapToRegistry   raw: 'isarray',
+295 silly mapToRegistry   scope: null,
+295 silly mapToRegistry   escapedName: 'isarray',
+295 silly mapToRegistry   name: 'isarray',
+295 silly mapToRegistry   rawSpec: '',
+295 silly mapToRegistry   spec: 'latest',
+295 silly mapToRegistry   type: 'tag' }
+296 silly mapToRegistry uri https://registry.npmjs.org/isarray
+297 verbose request uri https://registry.npmjs.org/isarray
+298 verbose request no auth needed
+299 info attempt registry request try #1 at 12:38:55 PM
+300 verbose etag "BJKA0WUSK5IKFIR1C15Y2ZNCG"
+301 http request GET https://registry.npmjs.org/isarray
+302 http 304 https://registry.npmjs.org/isarray
+303 verbose headers { date: 'Mon, 24 Oct 2016 17:38:51 GMT',
+303 verbose headers   via: '1.1 varnish',
+303 verbose headers   'cache-control': 'max-age=300',
+303 verbose headers   etag: '"BJKA0WUSK5IKFIR1C15Y2ZNCG"',
+303 verbose headers   age: '290',
+303 verbose headers   connection: 'keep-alive',
+303 verbose headers   'x-served-by': 'cache-ord1733-ORD',
+303 verbose headers   'x-cache': 'HIT',
+303 verbose headers   'x-cache-hits': '29',
+303 verbose headers   'x-timer': 'S1477330731.745182,VS0,VE0',
+303 verbose headers   vary: 'Accept-Encoding' }
+304 silly get cb [ 304,
+304 silly get   { date: 'Mon, 24 Oct 2016 17:38:51 GMT',
+304 silly get     via: '1.1 varnish',
+304 silly get     'cache-control': 'max-age=300',
+304 silly get     etag: '"BJKA0WUSK5IKFIR1C15Y2ZNCG"',
+304 silly get     age: '290',
+304 silly get     connection: 'keep-alive',
+304 silly get     'x-served-by': 'cache-ord1733-ORD',
+304 silly get     'x-cache': 'HIT',
+304 silly get     'x-cache-hits': '29',
+304 silly get     'x-timer': 'S1477330731.745182,VS0,VE0',
+304 silly get     vary: 'Accept-Encoding' } ]
+305 verbose etag https://registry.npmjs.org/isarray from cache
+306 verbose get saving isarray to C:\Users\tlee\AppData\Roaming\npm-cache\registry.npmjs.org\isarray\.cache.json
+307 verbose correctMkdir C:\Users\tlee\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+308 silly resolveWithNewModule isarray@1.0.0 checking installable status
+309 silly cache add args [ 'isarray@~1.0.0', null ]
+310 verbose cache add spec isarray@~1.0.0
+311 silly cache add parsed spec Result {
+311 silly cache add   raw: 'isarray@~1.0.0',
+311 silly cache add   scope: null,
+311 silly cache add   escapedName: 'isarray',
+311 silly cache add   name: 'isarray',
+311 silly cache add   rawSpec: '~1.0.0',
+311 silly cache add   spec: '>=1.0.0 <1.1.0',
+311 silly cache add   type: 'range' }
+312 silly addNamed isarray@>=1.0.0 <1.1.0
+313 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for isarray
+314 silly addNameRange { name: 'isarray', range: '>=1.0.0 <1.1.0', hasData: false }
+315 silly mapToRegistry name isarray
+316 silly mapToRegistry using default registry
+317 silly mapToRegistry registry https://registry.npmjs.org/
+318 silly mapToRegistry data Result {
+318 silly mapToRegistry   raw: 'isarray',
+318 silly mapToRegistry   scope: null,
+318 silly mapToRegistry   escapedName: 'isarray',
+318 silly mapToRegistry   name: 'isarray',
+318 silly mapToRegistry   rawSpec: '',
+318 silly mapToRegistry   spec: 'latest',
+318 silly mapToRegistry   type: 'tag' }
+319 silly mapToRegistry uri https://registry.npmjs.org/isarray
+320 verbose addNameRange registry:https://registry.npmjs.org/isarray not in flight; fetching
+321 verbose get https://registry.npmjs.org/isarray not expired, no request
+322 silly addNameRange number 2 { name: 'isarray', range: '>=1.0.0 <1.1.0', hasData: true }
+323 silly addNameRange versions [ 'isarray', [ '0.0.0', '0.0.1', '1.0.0', '2.0.0', '2.0.1' ] ]
+324 silly addNamed isarray@1.0.0
+325 verbose addNamed "1.0.0" is a plain semver version for isarray
+326 silly cache afterAdd isarray@1.0.0
+327 verbose afterAdd C:\Users\tlee\AppData\Roaming\npm-cache\isarray\1.0.0\package\package.json not in flight; writing
+328 verbose correctMkdir C:\Users\tlee\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+329 verbose afterAdd C:\Users\tlee\AppData\Roaming\npm-cache\isarray\1.0.0\package\package.json written
+330 silly loadAllDepsIntoIdealTree Finishing
+331 silly loadIdealTree Finishing
+332 silly currentTree optimizely@1.0.0
+332 silly currentTree +-- accepts@1.0.7
+332 silly currentTree +-- after@0.8.1
+332 silly currentTree +-- align-text@0.1.4
+332 silly currentTree +-- ansi-regex@2.0.0
+332 silly currentTree +-- ansi-styles@2.2.1
+332 silly currentTree +-- archy@1.0.0
+332 silly currentTree +-- arr-diff@2.0.0
+332 silly currentTree +-- arr-flatten@1.0.1
+332 silly currentTree +-- array-differ@1.0.0
+332 silly currentTree +-- array-find-index@1.0.2
+332 silly currentTree +-- array-union@1.0.2
+332 silly currentTree +-- array-uniq@1.0.3
+332 silly currentTree +-- array-unique@0.2.1
+332 silly currentTree +-- arraybuffer.slice@0.0.6
+332 silly currentTree +-- arrify@1.0.1
+332 silly currentTree +-- async-each-series@1.1.0
+332 silly currentTree +-- async@0.2.10
+332 silly currentTree +-- backo2@1.0.2
+332 silly currentTree +-- balanced-match@0.4.2
+332 silly currentTree +-- base64-arraybuffer@0.1.5
+332 silly currentTree +-- base64id@0.1.0
+332 silly currentTree +-- batch@0.5.1
+332 silly currentTree +-- beeper@1.1.0
+332 silly currentTree +-- benchmark@1.0.0
+332 silly currentTree +-- better-assert@1.0.2
+332 silly currentTree +-- bin-version-check
+332 silly currentTree +-- bl
+332 silly currentTree | `-- isarray@1.0.0
+332 silly currentTree +-- blob@0.0.4
+332 silly currentTree +-- brace-expansion@1.1.6
+332 silly currentTree +-- braces@1.8.5
+332 silly currentTree +-- buffer-shims@1.0.0
+332 silly currentTree +-- builtin-modules@1.1.1
+332 silly currentTree +-- callsite@1.0.0
+332 silly currentTree +-- camelcase-keys@2.1.0
+332 silly currentTree +-- camelcase@2.1.1
+332 silly currentTree +-- center-align@0.1.3
+332 silly currentTree +-- chalk@1.1.3
+332 silly currentTree +-- cliui@2.1.0
+332 silly currentTree +-- clone-stats@0.0.1
+332 silly currentTree +-- clone@1.0.2
+332 silly currentTree +-- commander@2.9.0
+332 silly currentTree +-- component-bind@1.0.0
+332 silly currentTree +-- component-emitter@1.1.2
+332 silly currentTree +-- component-inherit@0.0.3
+332 silly currentTree +-- concat-map@0.0.1
+332 silly currentTree +-- concat-with-sourcemaps@1.0.4
+332 silly currentTree +-- connect-inject@0.3.2
+332 silly currentTree +-- connect@3.1.1
+332 silly currentTree +-- core-util-is@1.0.2
+332 silly currentTree +-- currently-unhandled@0.4.1
+332 silly currentTree +-- dateformat@1.0.12
+332 silly currentTree +-- debug@1.0.4
+332 silly currentTree +-- decamelize@1.2.0
+332 silly currentTree +-- defaults@1.0.3
+332 silly currentTree +-- depd@0.4.4
+332 silly currentTree +-- deprecated@0.0.1
+332 silly currentTree +-- destroy@1.0.3
+332 silly currentTree +-- detect-file@0.1.0
+332 silly currentTree +-- duplexer2@0.0.2
+332 silly currentTree +-- duplexify@3.4.6
+332 silly currentTree | +-- isarray@1.0.0
+332 silly currentTree | `-- readable-stream@2.1.5
+332 silly currentTree +-- ee-first@1.0.5
+332 silly currentTree +-- end-of-stream@1.0.0
+332 silly currentTree +-- engine.io-client@1.7.0
+332 silly currentTree | +-- debug@2.2.0
+332 silly currentTree | `-- ms@0.7.1
+332 silly currentTree +-- engine.io-parser@1.3.0
+332 silly currentTree | `-- has-binary@0.1.6
+332 silly currentTree +-- engine.io@1.7.0
+332 silly currentTree | +-- accepts@1.3.3
+332 silly currentTree | +-- debug@2.2.0
+332 silly currentTree | +-- mime-types@2.1.12
+332 silly currentTree | +-- ms@0.7.1
+332 silly currentTree | `-- negotiator@0.6.1
+332 silly currentTree +-- error-ex@1.3.0
+332 silly currentTree +-- escape-html@1.0.1
+332 silly currentTree +-- escape-string-regexp@1.0.5
+332 silly currentTree +-- expand-brackets@0.1.5
+332 silly currentTree +-- expand-range@1.8.2
+332 silly currentTree +-- expand-tilde@1.2.2
+332 silly currentTree +-- extend@3.0.0
+332 silly currentTree +-- extglob@0.3.2
+332 silly currentTree +-- fancy-log@1.2.0
+332 silly currentTree +-- filename-regex@2.0.0
+332 silly currentTree +-- fill-range@2.2.3
+332 silly currentTree +-- finalhandler@0.1.0
+332 silly currentTree +-- find-index@0.1.1
+332 silly currentTree +-- find-up@1.1.2
+332 silly currentTree +-- findup-sync@0.4.3
+332 silly currentTree +-- fined@1.0.2
+332 silly currentTree +-- first-chunk-stream@1.0.0
+332 silly currentTree +-- flagged-respawn@0.3.2
+332 silly currentTree +-- for-in@0.1.6
+332 silly currentTree +-- for-own@0.1.4
+332 silly currentTree +-- fresh@0.2.2
+332 silly currentTree +-- fs-exists-sync@0.1.0
+332 silly currentTree +-- fs.realpath@1.0.0
+332 silly currentTree +-- gaze@0.5.2
+332 silly currentTree +-- get-stdin@4.0.1
+332 silly currentTree +-- glob-base@0.3.0
+332 silly currentTree +-- glob-parent@2.0.0
+332 silly currentTree +-- glob-stream@4.1.1
+332 silly currentTree | +-- readable-stream@1.0.34
+332 silly currentTree | `-- through2@0.6.5
+332 silly currentTree +-- glob-watcher@0.0.8
+332 silly currentTree +-- glob@4.5.3
+332 silly currentTree +-- glob2base@0.0.12
+332 silly currentTree +-- global-modules@0.2.3
+332 silly currentTree +-- global-prefix@0.1.4
+332 silly currentTree +-- globby
+332 silly currentTree | +-- glob@7.1.1
+332 silly currentTree | +-- minimatch@3.0.3
+332 silly currentTree | `-- object-assign@4.1.0
+332 silly currentTree +-- globule@0.1.0
+332 silly currentTree | +-- glob@3.1.21
+332 silly currentTree | +-- graceful-fs@1.2.3
+332 silly currentTree | +-- inherits@1.0.2
+332 silly currentTree | +-- lodash@1.0.2
+332 silly currentTree | `-- minimatch@0.2.14
+332 silly currentTree +-- glogg@1.0.0
+332 silly currentTree +-- graceful-fs@4.1.9
+332 silly currentTree +-- graceful-readlink@1.0.1
+332 silly currentTree +-- gulp-concat@2.6.0
+332 silly currentTree | +-- readable-stream@1.0.34
+332 silly currentTree | `-- through2@0.6.5
+332 silly currentTree +-- gulp-csslint
+332 silly currentTree | +-- isarray@1.0.0
+332 silly currentTree | `-- readable-stream@2.0.6
+332 silly currentTree +-- gulp-rename@1.2.2
+332 silly currentTree +-- gulp-server-livereload@1.9.0
+332 silly currentTree +-- gulp-uglify@2.0.0
+332 silly currentTree | +-- isarray@1.0.0
+332 silly currentTree | +-- readable-stream@2.0.6
+332 silly currentTree | `-- through2@2.0.1
+332 silly currentTree +-- gulp-util@3.0.7
+332 silly currentTree | +-- isarray@1.0.0
+332 silly currentTree | +-- readable-stream@2.0.6
+332 silly currentTree | `-- through2@2.0.1
+332 silly currentTree +-- gulp@3.9.1
+332 silly currentTree | +-- clone@0.2.0
+332 silly currentTree | +-- glob-stream@3.1.18
+332 silly currentTree | +-- glob-watcher@0.0.6
+332 silly currentTree | +-- graceful-fs@3.0.11
+332 silly currentTree | +-- readable-stream@1.0.34
+332 silly currentTree | +-- semver@4.3.6
+332 silly currentTree | +-- strip-bom@1.0.0
+332 silly currentTree | +-- through2@0.6.5
+332 silly currentTree | +-- unique-stream@1.0.0
+332 silly currentTree | +-- vinyl-fs@0.3.14
+332 silly currentTree | `-- vinyl@0.4.6
+332 silly currentTree +-- gulplog@1.0.0
+332 silly currentTree +-- has-ansi@2.0.0
+332 silly currentTree +-- has-binary@0.1.7
+332 silly currentTree +-- has-cors@1.1.0
+332 silly currentTree +-- has-gulplog@0.1.0
+332 silly currentTree +-- hosted-git-info@2.1.5
+332 silly currentTree +-- indent-string@2.1.0
+332 silly currentTree +-- indexof@0.0.1
+332 silly currentTree +-- inflight@1.0.6
+332 silly currentTree +-- inherits@2.0.3
+332 silly currentTree +-- ini@1.3.4
+332 silly currentTree +-- interpret@1.0.1
+332 silly currentTree +-- is-absolute@0.2.6
+332 silly currentTree +-- is-arrayish@0.2.1
+332 silly currentTree +-- is-buffer@1.1.4
+332 silly currentTree +-- is-builtin-module@1.0.0
+332 silly currentTree +-- is-dotfile@1.0.2
+332 silly currentTree +-- is-equal-shallow@0.1.3
+332 silly currentTree +-- is-extendable@0.1.1
+332 silly currentTree +-- is-extglob@1.0.0
+332 silly currentTree +-- is-finite@1.0.2
+332 silly currentTree +-- is-glob@2.0.1
+332 silly currentTree +-- is-number@2.1.0
+332 silly currentTree +-- is-posix-bracket@0.1.1
+332 silly currentTree +-- is-primitive@2.0.0
+332 silly currentTree +-- is-relative@0.2.1
+332 silly currentTree +-- is-unc-path@0.1.1
+332 silly currentTree +-- is-utf8@0.2.1
+332 silly currentTree +-- is-windows@0.2.0
+332 silly currentTree +-- is@0.3.0
+332 silly currentTree +-- isarray@0.0.1
+332 silly currentTree +-- isexe@1.1.2
+332 silly currentTree +-- isobject@2.1.0
+332 silly currentTree | `-- isarray@1.0.0
+332 silly currentTree +-- json-stable-stringify@1.0.1
+332 silly currentTree +-- json3@3.2.6
+332 silly currentTree +-- jsonify@0.0.0
+332 silly currentTree +-- kind-of@3.0.4
+332 silly currentTree +-- lazy-cache@1.0.4
+332 silly currentTree +-- liftoff@2.3.0
+332 silly currentTree +-- load-json-file@1.1.0
+332 silly currentTree +-- lodash._basecopy@3.0.1
+332 silly currentTree +-- lodash._basetostring@3.0.1
+332 silly currentTree +-- lodash._basevalues@3.0.0
+332 silly currentTree +-- lodash._getnative@3.9.1
+332 silly currentTree +-- lodash._isiterateecall@3.0.9
+332 silly currentTree +-- lodash._reescape@3.0.0
+332 silly currentTree +-- lodash._reevaluate@3.0.0
+332 silly currentTree +-- lodash._reinterpolate@3.0.0
+332 silly currentTree +-- lodash._root@3.0.1
+332 silly currentTree +-- lodash.assign@4.2.0
+332 silly currentTree +-- lodash.assignwith@4.2.0
+332 silly currentTree +-- lodash.clonedeep@4.5.0
+332 silly currentTree +-- lodash.escape@3.2.0
+332 silly currentTree +-- lodash.isarguments@3.1.0
+332 silly currentTree +-- lodash.isarray@3.0.4
+332 silly currentTree +-- lodash.isempty@4.4.0
+332 silly currentTree +-- lodash.isobject@3.0.2
+332 silly currentTree +-- lodash.isplainobject@4.0.6
+332 silly currentTree +-- lodash.isstring@4.0.1
+332 silly currentTree +-- lodash.keys@3.1.2
+332 silly currentTree +-- lodash.mapvalues@4.6.0
+332 silly currentTree +-- lodash.merge@4.6.0
+332 silly currentTree +-- lodash.pick@4.4.0
+332 silly currentTree +-- lodash.restparam@3.6.1
+332 silly currentTree +-- lodash.template@3.6.2
+332 silly currentTree +-- lodash.templatesettings@3.1.1
+332 silly currentTree +-- lodash@4.16.4
+332 silly currentTree +-- longest@1.0.1
+332 silly currentTree +-- loud-rejection@1.6.0
+332 silly currentTree +-- lru-cache@2.7.3
+332 silly currentTree +-- make-error-cause@1.2.2
+332 silly currentTree +-- make-error@1.2.1
+332 silly currentTree +-- map-cache@0.2.2
+332 silly currentTree +-- map-obj@1.0.1
+332 silly currentTree +-- meow@3.7.0
+332 silly currentTree | `-- object-assign@4.1.0
+332 silly currentTree +-- merge-stream@0.1.8
+332 silly currentTree | +-- readable-stream@1.0.34
+332 silly currentTree | `-- through2@0.6.5
+332 silly currentTree +-- micromatch@2.3.11
+332 silly currentTree +-- mime-db@1.24.0
+332 silly currentTree +-- mime-types@1.0.2
+332 silly currentTree +-- mime@1.2.11
+332 silly currentTree +-- minimatch@2.0.10
+332 silly currentTree +-- minimist@1.2.0
+332 silly currentTree +-- mkdirp@0.5.1
+332 silly currentTree | `-- minimist@0.0.8
+332 silly currentTree +-- ms@0.6.2
+332 silly currentTree +-- multipipe@0.1.2
+332 silly currentTree +-- natives@1.1.0
+332 silly currentTree +-- negotiator@0.4.7
+332 silly currentTree +-- node-watch@0.3.5
+332 silly currentTree +-- node.extend@1.0.10
+332 silly currentTree +-- normalize-package-data@2.3.5
+332 silly currentTree +-- normalize-path@2.0.1
+332 silly currentTree +-- number-is-nan@1.0.1
+332 silly currentTree +-- object-assign@3.0.0
+332 silly currentTree +-- object-component@0.0.3
+332 silly currentTree +-- object.omit@2.0.0
+332 silly currentTree +-- on-finished@2.1.0
+332 silly currentTree +-- once@1.3.3
+332 silly currentTree +-- open@0.0.5
+332 silly currentTree +-- options@0.0.6
+332 silly currentTree +-- orchestrator@0.3.7
+332 silly currentTree | `-- end-of-stream@0.1.5
+332 silly currentTree +-- ordered-read-streams@0.1.0
+332 silly currentTree +-- os-homedir@1.0.2
+332 silly currentTree +-- os-tmpdir@1.0.2
+332 silly currentTree +-- osenv@0.1.3
+332 silly currentTree +-- parse-filepath@1.0.1
+332 silly currentTree +-- parse-glob@3.0.4
+332 silly currentTree +-- parse-json@2.2.0
+332 silly currentTree +-- parsejson@0.0.1
+332 silly currentTree +-- parseqs@0.0.2
+332 silly currentTree +-- parseuri@0.0.4
+332 silly currentTree +-- parseurl@1.3.1
+332 silly currentTree +-- path-exists@2.1.0
+332 silly currentTree +-- path-is-absolute@1.0.1
+332 silly currentTree +-- path-root-regex@0.1.2
+332 silly currentTree +-- path-root@0.1.1
+332 silly currentTree +-- path-type@1.1.0
+332 silly currentTree +-- pify@2.3.0
+332 silly currentTree +-- pinkie-promise@2.0.1
+332 silly currentTree +-- pinkie@2.0.4
+332 silly currentTree +-- preserve@0.2.0
+332 silly currentTree +-- pretty-hrtime@1.0.2
+332 silly currentTree +-- process-nextick-args@1.0.7
+332 silly currentTree +-- proxy-middleware@0.15.0
+332 silly currentTree +-- randomatic@1.1.5
+332 silly currentTree +-- range-parser@1.0.3
+332 silly currentTree +-- read-pkg-up@1.0.1
+332 silly currentTree +-- read-pkg@1.1.0
+332 silly currentTree +-- readable-stream@1.1.14
+332 silly currentTree +-- rechoir@0.6.2
+332 silly currentTree +-- redent@1.0.0
+332 silly currentTree +-- regex-cache@0.4.3
+332 silly currentTree +-- repeat-element@1.1.2
+332 silly currentTree +-- repeat-string@1.5.4
+332 silly currentTree +-- repeating@2.0.1
+332 silly currentTree +-- replace-ext@0.0.1
+332 silly currentTree +-- resolve-dir@0.1.1
+332 silly currentTree +-- resolve@1.1.7
+332 silly currentTree +-- right-align@0.1.3
+332 silly currentTree +-- semver@5.3.0
+332 silly currentTree +-- send@0.8.5
+332 silly currentTree +-- sequencify@0.0.7
+332 silly currentTree +-- serve-index@1.1.6
+332 silly currentTree +-- serve-static@1.5.4
+332 silly currentTree +-- sigmund@1.0.1
+332 silly currentTree +-- signal-exit@3.0.1
+332 silly currentTree +-- socket.io-adapter@0.4.0
+332 silly currentTree | +-- debug@2.2.0
+332 silly currentTree | +-- ms@0.7.1
+332 silly currentTree | `-- socket.io-parser@2.2.2
+332 silly currentTree |   `-- debug@0.7.4
+332 silly currentTree +-- socket.io-client@1.5.0
+332 silly currentTree | +-- component-emitter@1.2.0
+332 silly currentTree | +-- debug@2.2.0
+332 silly currentTree | `-- ms@0.7.1
+332 silly currentTree +-- socket.io-parser@2.2.6
+332 silly currentTree | +-- debug@2.2.0
+332 silly currentTree | +-- json3@3.3.2
+332 silly currentTree | `-- ms@0.7.1
+332 silly currentTree +-- socket.io@1.5.0
+332 silly currentTree | +-- debug@2.2.0
+332 silly currentTree | `-- ms@0.7.1
+332 silly currentTree +-- source-map@0.5.6
+332 silly currentTree +-- sparkles@1.0.0
+332 silly currentTree +-- spdx-correct@1.0.2
+332 silly currentTree +-- spdx-expression-parse@1.0.4
+332 silly currentTree +-- spdx-license-ids@1.2.2
+332 silly currentTree +-- stream-consume@0.1.0
+332 silly currentTree +-- stream-shift@1.0.0
+332 silly currentTree +-- string_decoder@0.10.31
+332 silly currentTree +-- strip-ansi@3.0.1
+332 silly currentTree +-- strip-bom@2.0.0
+332 silly currentTree +-- strip-indent@1.0.1
+332 silly currentTree +-- supports-color@2.0.0
+332 silly currentTree +-- through2-filter@2.0.0
+332 silly currentTree | +-- isarray@1.0.0
+332 silly currentTree | +-- readable-stream@2.0.6
+332 silly currentTree | `-- through2@2.0.1
+332 silly currentTree +-- through2@0.5.1
+332 silly currentTree | +-- readable-stream@1.0.34
+332 silly currentTree | `-- xtend@3.0.0
+332 silly currentTree +-- tildify@1.2.0
+332 silly currentTree +-- time-stamp@1.0.1
+332 silly currentTree +-- to-array@0.1.4
+332 silly currentTree +-- trim-newlines@1.0.0
+332 silly currentTree +-- uglify-js@2.7.0
+332 silly currentTree +-- uglify-save-license@0.4.1
+332 silly currentTree +-- uglify-to-browserify@1.0.2
+332 silly currentTree +-- ultron@1.0.2
+332 silly currentTree +-- unc-path-regex@0.1.2
+332 silly currentTree +-- unique-stream@2.2.1
+332 silly currentTree +-- user-home@1.1.1
+332 silly currentTree +-- util-deprecate@1.0.2
+332 silly currentTree +-- utils-merge@1.0.0
+332 silly currentTree +-- v8flags@2.0.11
+332 silly currentTree +-- validate-npm-package-license@3.0.1
+332 silly currentTree +-- vinyl-fs@1.0.0
+332 silly currentTree | +-- clone@0.2.0
+332 silly currentTree | +-- graceful-fs@3.0.11
+332 silly currentTree | +-- object-assign@2.1.1
+332 silly currentTree | +-- readable-stream@1.0.34
+332 silly currentTree | +-- strip-bom@1.0.0
+332 silly currentTree | +-- through2@0.6.5
+332 silly currentTree | `-- vinyl@0.4.6
+332 silly currentTree +-- vinyl-sourcemaps-apply@0.2.1
+332 silly currentTree +-- vinyl@0.5.3
+332 silly currentTree +-- which@1.2.11
+332 silly currentTree +-- window-size@0.1.0
+332 silly currentTree +-- wordwrap@0.0.2
+332 silly currentTree +-- wrappy@1.0.2
+332 silly currentTree +-- ws@1.1.1
+332 silly currentTree +-- wtf-8@1.0.0
+332 silly currentTree +-- xmlhttprequest-ssl@1.5.1
+332 silly currentTree +-- xtend@4.0.1
+332 silly currentTree +-- yargs@3.10.0
+332 silly currentTree | `-- camelcase@1.2.1
+332 silly currentTree `-- yeast@0.1.2
+333 silly idealTree optimizely@1.0.0
+333 silly idealTree +-- accepts@1.0.7
+333 silly idealTree +-- after@0.8.1
+333 silly idealTree +-- align-text@0.1.4
+333 silly idealTree +-- ansi-regex@2.0.0
+333 silly idealTree +-- ansi-styles@2.2.1
+333 silly idealTree +-- archy@1.0.0
+333 silly idealTree +-- arr-diff@2.0.0
+333 silly idealTree +-- arr-flatten@1.0.1
+333 silly idealTree +-- array-differ@1.0.0
+333 silly idealTree +-- array-find-index@1.0.2
+333 silly idealTree +-- array-union@1.0.2
+333 silly idealTree +-- array-uniq@1.0.3
+333 silly idealTree +-- array-unique@0.2.1
+333 silly idealTree +-- arraybuffer.slice@0.0.6
+333 silly idealTree +-- arrify@1.0.1
+333 silly idealTree +-- async-each-series@1.1.0
+333 silly idealTree +-- async@0.2.10
+333 silly idealTree +-- backo2@1.0.2
+333 silly idealTree +-- balanced-match@0.4.2
+333 silly idealTree +-- base64-arraybuffer@0.1.5
+333 silly idealTree +-- base64id@0.1.0
+333 silly idealTree +-- batch@0.5.1
+333 silly idealTree +-- beeper@1.1.0
+333 silly idealTree +-- benchmark@1.0.0
+333 silly idealTree +-- better-assert@1.0.2
+333 silly idealTree +-- bin-version-check
+333 silly idealTree +-- bl
+333 silly idealTree | `-- isarray@1.0.0
+333 silly idealTree +-- blob@0.0.4
+333 silly idealTree +-- brace-expansion@1.1.6
+333 silly idealTree +-- braces@1.8.5
+333 silly idealTree +-- buffer-shims@1.0.0
+333 silly idealTree +-- builtin-modules@1.1.1
+333 silly idealTree +-- callsite@1.0.0
+333 silly idealTree +-- camelcase-keys@2.1.0
+333 silly idealTree +-- camelcase@2.1.1
+333 silly idealTree +-- center-align@0.1.3
+333 silly idealTree +-- chalk@1.1.3
+333 silly idealTree +-- cliui@2.1.0
+333 silly idealTree +-- clone-stats@0.0.1
+333 silly idealTree +-- clone@1.0.2
+333 silly idealTree +-- commander@2.9.0
+333 silly idealTree +-- component-bind@1.0.0
+333 silly idealTree +-- component-emitter@1.1.2
+333 silly idealTree +-- component-inherit@0.0.3
+333 silly idealTree +-- concat-map@0.0.1
+333 silly idealTree +-- concat-with-sourcemaps@1.0.4
+333 silly idealTree +-- connect-inject@0.3.2
+333 silly idealTree +-- connect@3.1.1
+333 silly idealTree +-- core-util-is@1.0.2
+333 silly idealTree +-- csslint@1.0.3
+333 silly idealTree +-- currently-unhandled@0.4.1
+333 silly idealTree +-- dateformat@1.0.12
+333 silly idealTree +-- debug@1.0.4
+333 silly idealTree +-- decamelize@1.2.0
+333 silly idealTree +-- defaults@1.0.3
+333 silly idealTree +-- depd@0.4.4
+333 silly idealTree +-- deprecated@0.0.1
+333 silly idealTree +-- destroy@1.0.3
+333 silly idealTree +-- detect-file@0.1.0
+333 silly idealTree +-- duplexer2@0.0.2
+333 silly idealTree +-- duplexify@3.4.6
+333 silly idealTree | +-- isarray@1.0.0
+333 silly idealTree | `-- readable-stream@2.1.5
+333 silly idealTree +-- ee-first@1.0.5
+333 silly idealTree +-- end-of-stream@1.0.0
+333 silly idealTree +-- engine.io-client@1.7.0
+333 silly idealTree | +-- debug@2.2.0
+333 silly idealTree | `-- ms@0.7.1
+333 silly idealTree +-- engine.io-parser@1.3.0
+333 silly idealTree | `-- has-binary@0.1.6
+333 silly idealTree +-- engine.io@1.7.0
+333 silly idealTree | +-- accepts@1.3.3
+333 silly idealTree | +-- debug@2.2.0
+333 silly idealTree | +-- mime-types@2.1.12
+333 silly idealTree | +-- ms@0.7.1
+333 silly idealTree | `-- negotiator@0.6.1
+333 silly idealTree +-- error-ex@1.3.0
+333 silly idealTree +-- escape-html@1.0.1
+333 silly idealTree +-- escape-string-regexp@1.0.5
+333 silly idealTree +-- expand-brackets@0.1.5
+333 silly idealTree +-- expand-range@1.8.2
+333 silly idealTree +-- expand-tilde@1.2.2
+333 silly idealTree +-- extend@3.0.0
+333 silly idealTree +-- extglob@0.3.2
+333 silly idealTree +-- fancy-log@1.2.0
+333 silly idealTree +-- filename-regex@2.0.0
+333 silly idealTree +-- fill-range@2.2.3
+333 silly idealTree +-- finalhandler@0.1.0
+333 silly idealTree +-- find-index@0.1.1
+333 silly idealTree +-- find-up@1.1.2
+333 silly idealTree +-- findup-sync@0.4.3
+333 silly idealTree +-- fined@1.0.2
+333 silly idealTree +-- first-chunk-stream@1.0.0
+333 silly idealTree +-- flagged-respawn@0.3.2
+333 silly idealTree +-- for-in@0.1.6
+333 silly idealTree +-- for-own@0.1.4
+333 silly idealTree +-- fresh@0.2.2
+333 silly idealTree +-- fs-exists-sync@0.1.0
+333 silly idealTree +-- fs.realpath@1.0.0
+333 silly idealTree +-- gaze@0.5.2
+333 silly idealTree +-- get-stdin@4.0.1
+333 silly idealTree +-- glob-base@0.3.0
+333 silly idealTree +-- glob-parent@2.0.0
+333 silly idealTree +-- glob-stream@4.1.1
+333 silly idealTree | +-- readable-stream@1.0.34
+333 silly idealTree | `-- through2@0.6.5
+333 silly idealTree +-- glob-watcher@0.0.8
+333 silly idealTree +-- glob@4.5.3
+333 silly idealTree +-- glob2base@0.0.12
+333 silly idealTree +-- global-modules@0.2.3
+333 silly idealTree +-- global-prefix@0.1.4
+333 silly idealTree +-- globby
+333 silly idealTree | +-- glob@7.1.1
+333 silly idealTree | +-- minimatch@3.0.3
+333 silly idealTree | `-- object-assign@4.1.0
+333 silly idealTree +-- globule@0.1.0
+333 silly idealTree | +-- glob@3.1.21
+333 silly idealTree | +-- graceful-fs@1.2.3
+333 silly idealTree | +-- inherits@1.0.2
+333 silly idealTree | +-- lodash@1.0.2
+333 silly idealTree | `-- minimatch@0.2.14
+333 silly idealTree +-- glogg@1.0.0
+333 silly idealTree +-- graceful-fs@4.1.9
+333 silly idealTree +-- graceful-readlink@1.0.1
+333 silly idealTree +-- gulp-concat@2.6.0
+333 silly idealTree | +-- readable-stream@1.0.34
+333 silly idealTree | `-- through2@0.6.5
+333 silly idealTree +-- gulp-csslint@1.0.0
+333 silly idealTree | +-- isarray@1.0.0
+333 silly idealTree | +-- readable-stream@2.0.6
+333 silly idealTree | `-- through2@2.0.1
+333 silly idealTree +-- gulp-rename@1.2.2
+333 silly idealTree +-- gulp-server-livereload@1.9.0
+333 silly idealTree +-- gulp-uglify@2.0.0
+333 silly idealTree | +-- isarray@1.0.0
+333 silly idealTree | +-- readable-stream@2.0.6
+333 silly idealTree | `-- through2@2.0.1
+333 silly idealTree +-- gulp-util@3.0.7
+333 silly idealTree | +-- isarray@1.0.0
+333 silly idealTree | +-- readable-stream@2.0.6
+333 silly idealTree | `-- through2@2.0.1
+333 silly idealTree +-- gulp@3.9.1
+333 silly idealTree | +-- clone@0.2.0
+333 silly idealTree | +-- glob-stream@3.1.18
+333 silly idealTree | +-- glob-watcher@0.0.6
+333 silly idealTree | +-- graceful-fs@3.0.11
+333 silly idealTree | +-- readable-stream@1.0.34
+333 silly idealTree | +-- semver@4.3.6
+333 silly idealTree | +-- strip-bom@1.0.0
+333 silly idealTree | +-- through2@0.6.5
+333 silly idealTree | +-- unique-stream@1.0.0
+333 silly idealTree | +-- vinyl-fs@0.3.14
+333 silly idealTree | `-- vinyl@0.4.6
+333 silly idealTree +-- gulplog@1.0.0
+333 silly idealTree +-- has-ansi@2.0.0
+333 silly idealTree +-- has-binary@0.1.7
+333 silly idealTree +-- has-cors@1.1.0
+333 silly idealTree +-- has-gulplog@0.1.0
+333 silly idealTree +-- hosted-git-info@2.1.5
+333 silly idealTree +-- indent-string@2.1.0
+333 silly idealTree +-- indexof@0.0.1
+333 silly idealTree +-- inflight@1.0.6
+333 silly idealTree +-- inherits@2.0.3
+333 silly idealTree +-- ini@1.3.4
+333 silly idealTree +-- interpret@1.0.1
+333 silly idealTree +-- is-absolute@0.2.6
+333 silly idealTree +-- is-arrayish@0.2.1
+333 silly idealTree +-- is-buffer@1.1.4
+333 silly idealTree +-- is-builtin-module@1.0.0
+333 silly idealTree +-- is-dotfile@1.0.2
+333 silly idealTree +-- is-equal-shallow@0.1.3
+333 silly idealTree +-- is-extendable@0.1.1
+333 silly idealTree +-- is-extglob@1.0.0
+333 silly idealTree +-- is-finite@1.0.2
+333 silly idealTree +-- is-glob@2.0.1
+333 silly idealTree +-- is-number@2.1.0
+333 silly idealTree +-- is-posix-bracket@0.1.1
+333 silly idealTree +-- is-primitive@2.0.0
+333 silly idealTree +-- is-relative@0.2.1
+333 silly idealTree +-- is-unc-path@0.1.1
+333 silly idealTree +-- is-utf8@0.2.1
+333 silly idealTree +-- is-windows@0.2.0
+333 silly idealTree +-- is@0.3.0
+333 silly idealTree +-- isarray@0.0.1
+333 silly idealTree +-- isexe@1.1.2
+333 silly idealTree +-- isobject@2.1.0
+333 silly idealTree | `-- isarray@1.0.0
+333 silly idealTree +-- json-stable-stringify@1.0.1
+333 silly idealTree +-- json3@3.2.6
+333 silly idealTree +-- jsonify@0.0.0
+333 silly idealTree +-- kind-of@3.0.4
+333 silly idealTree +-- lazy-cache@1.0.4
+333 silly idealTree +-- liftoff@2.3.0
+333 silly idealTree +-- load-json-file@1.1.0
+333 silly idealTree +-- lodash._basecopy@3.0.1
+333 silly idealTree +-- lodash._basetostring@3.0.1
+333 silly idealTree +-- lodash._basevalues@3.0.0
+333 silly idealTree +-- lodash._getnative@3.9.1
+333 silly idealTree +-- lodash._isiterateecall@3.0.9
+333 silly idealTree +-- lodash._reescape@3.0.0
+333 silly idealTree +-- lodash._reevaluate@3.0.0
+333 silly idealTree +-- lodash._reinterpolate@3.0.0
+333 silly idealTree +-- lodash._root@3.0.1
+333 silly idealTree +-- lodash.assign@4.2.0
+333 silly idealTree +-- lodash.assignwith@4.2.0
+333 silly idealTree +-- lodash.clonedeep@4.5.0
+333 silly idealTree +-- lodash.escape@3.2.0
+333 silly idealTree +-- lodash.isarguments@3.1.0
+333 silly idealTree +-- lodash.isarray@3.0.4
+333 silly idealTree +-- lodash.isempty@4.4.0
+333 silly idealTree +-- lodash.isobject@3.0.2
+333 silly idealTree +-- lodash.isplainobject@4.0.6
+333 silly idealTree +-- lodash.isstring@4.0.1
+333 silly idealTree +-- lodash.keys@3.1.2
+333 silly idealTree +-- lodash.mapvalues@4.6.0
+333 silly idealTree +-- lodash.merge@4.6.0
+333 silly idealTree +-- lodash.pick@4.4.0
+333 silly idealTree +-- lodash.restparam@3.6.1
+333 silly idealTree +-- lodash.template@3.6.2
+333 silly idealTree +-- lodash.templatesettings@3.1.1
+333 silly idealTree +-- lodash@4.16.4
+333 silly idealTree +-- longest@1.0.1
+333 silly idealTree +-- loud-rejection@1.6.0
+333 silly idealTree +-- lru-cache@2.7.3
+333 silly idealTree +-- make-error-cause@1.2.2
+333 silly idealTree +-- make-error@1.2.1
+333 silly idealTree +-- map-cache@0.2.2
+333 silly idealTree +-- map-obj@1.0.1
+333 silly idealTree +-- meow@3.7.0
+333 silly idealTree | `-- object-assign@4.1.0
+333 silly idealTree +-- merge-stream@0.1.8
+333 silly idealTree | +-- readable-stream@1.0.34
+333 silly idealTree | `-- through2@0.6.5
+333 silly idealTree +-- micromatch@2.3.11
+333 silly idealTree +-- mime-db@1.24.0
+333 silly idealTree +-- mime-types@1.0.2
+333 silly idealTree +-- mime@1.2.11
+333 silly idealTree +-- minimatch@2.0.10
+333 silly idealTree +-- minimist@1.2.0
+333 silly idealTree +-- mkdirp@0.5.1
+333 silly idealTree | `-- minimist@0.0.8
+333 silly idealTree +-- ms@0.6.2
+333 silly idealTree +-- multipipe@0.1.2
+333 silly idealTree +-- natives@1.1.0
+333 silly idealTree +-- negotiator@0.4.7
+333 silly idealTree +-- node-watch@0.3.5
+333 silly idealTree +-- node.extend@1.0.10
+333 silly idealTree +-- normalize-package-data@2.3.5
+333 silly idealTree +-- normalize-path@2.0.1
+333 silly idealTree +-- number-is-nan@1.0.1
+333 silly idealTree +-- object-assign@3.0.0
+333 silly idealTree +-- object-component@0.0.3
+333 silly idealTree +-- object.omit@2.0.0
+333 silly idealTree +-- on-finished@2.1.0
+333 silly idealTree +-- once@1.3.3
+333 silly idealTree +-- open@0.0.5
+333 silly idealTree +-- options@0.0.6
+333 silly idealTree +-- orchestrator@0.3.7
+333 silly idealTree | `-- end-of-stream@0.1.5
+333 silly idealTree +-- ordered-read-streams@0.1.0
+333 silly idealTree +-- os-homedir@1.0.2
+333 silly idealTree +-- os-tmpdir@1.0.2
+333 silly idealTree +-- osenv@0.1.3
+333 silly idealTree +-- parse-filepath@1.0.1
+333 silly idealTree +-- parse-glob@3.0.4
+333 silly idealTree +-- parse-json@2.2.0
+333 silly idealTree +-- parsejson@0.0.1
+333 silly idealTree +-- parseqs@0.0.2
+333 silly idealTree +-- parserlib@1.0.0
+333 silly idealTree +-- parseuri@0.0.4
+333 silly idealTree +-- parseurl@1.3.1
+333 silly idealTree +-- path-exists@2.1.0
+333 silly idealTree +-- path-is-absolute@1.0.1
+333 silly idealTree +-- path-root-regex@0.1.2
+333 silly idealTree +-- path-root@0.1.1
+333 silly idealTree +-- path-type@1.1.0
+333 silly idealTree +-- pify@2.3.0
+333 silly idealTree +-- pinkie-promise@2.0.1
+333 silly idealTree +-- pinkie@2.0.4
+333 silly idealTree +-- preserve@0.2.0
+333 silly idealTree +-- pretty-hrtime@1.0.2
+333 silly idealTree +-- process-nextick-args@1.0.7
+333 silly idealTree +-- proxy-middleware@0.15.0
+333 silly idealTree +-- randomatic@1.1.5
+333 silly idealTree +-- range-parser@1.0.3
+333 silly idealTree +-- rcfinder@0.1.9
+333 silly idealTree +-- rcloader@0.2.1
+333 silly idealTree +-- read-pkg-up@1.0.1
+333 silly idealTree +-- read-pkg@1.1.0
+333 silly idealTree +-- readable-stream@1.1.14
+333 silly idealTree +-- rechoir@0.6.2
+333 silly idealTree +-- redent@1.0.0
+333 silly idealTree +-- regex-cache@0.4.3
+333 silly idealTree +-- repeat-element@1.1.2
+333 silly idealTree +-- repeat-string@1.5.4
+333 silly idealTree +-- repeating@2.0.1
+333 silly idealTree +-- replace-ext@0.0.1
+333 silly idealTree +-- resolve-dir@0.1.1
+333 silly idealTree +-- resolve@1.1.7
+333 silly idealTree +-- right-align@0.1.3
+333 silly idealTree +-- semver@5.3.0
+333 silly idealTree +-- send@0.8.5
+333 silly idealTree +-- sequencify@0.0.7
+333 silly idealTree +-- serve-index@1.1.6
+333 silly idealTree +-- serve-static@1.5.4
+333 silly idealTree +-- sigmund@1.0.1
+333 silly idealTree +-- signal-exit@3.0.1
+333 silly idealTree +-- socket.io-adapter@0.4.0
+333 silly idealTree | +-- debug@2.2.0
+333 silly idealTree | +-- ms@0.7.1
+333 silly idealTree | `-- socket.io-parser@2.2.2
+333 silly idealTree |   `-- debug@0.7.4
+333 silly idealTree +-- socket.io-client@1.5.0
+333 silly idealTree | +-- component-emitter@1.2.0
+333 silly idealTree | +-- debug@2.2.0
+333 silly idealTree | `-- ms@0.7.1
+333 silly idealTree +-- socket.io-parser@2.2.6
+333 silly idealTree | +-- debug@2.2.0
+333 silly idealTree | +-- json3@3.3.2
+333 silly idealTree | `-- ms@0.7.1
+333 silly idealTree +-- socket.io@1.5.0
+333 silly idealTree | +-- debug@2.2.0
+333 silly idealTree | `-- ms@0.7.1
+333 silly idealTree +-- source-map@0.5.6
+333 silly idealTree +-- sparkles@1.0.0
+333 silly idealTree +-- spdx-correct@1.0.2
+333 silly idealTree +-- spdx-expression-parse@1.0.4
+333 silly idealTree +-- spdx-license-ids@1.2.2
+333 silly idealTree +-- stream-consume@0.1.0
+333 silly idealTree +-- stream-shift@1.0.0
+333 silly idealTree +-- string_decoder@0.10.31
+333 silly idealTree +-- strip-ansi@3.0.1
+333 silly idealTree +-- strip-bom@2.0.0
+333 silly idealTree +-- strip-indent@1.0.1
+333 silly idealTree +-- supports-color@2.0.0
+333 silly idealTree +-- through2-filter@2.0.0
+333 silly idealTree | +-- isarray@1.0.0
+333 silly idealTree | +-- readable-stream@2.0.6
+333 silly idealTree | `-- through2@2.0.1
+333 silly idealTree +-- through2@0.5.1
+333 silly idealTree | +-- readable-stream@1.0.34
+333 silly idealTree | `-- xtend@3.0.0
+333 silly idealTree +-- tildify@1.2.0
+333 silly idealTree +-- time-stamp@1.0.1
+333 silly idealTree +-- to-array@0.1.4
+333 silly idealTree +-- trim-newlines@1.0.0
+333 silly idealTree +-- uglify-js@2.7.0
+333 silly idealTree +-- uglify-save-license@0.4.1
+333 silly idealTree +-- uglify-to-browserify@1.0.2
+333 silly idealTree +-- ultron@1.0.2
+333 silly idealTree +-- unc-path-regex@0.1.2
+333 silly idealTree +-- unique-stream@2.2.1
+333 silly idealTree +-- user-home@1.1.1
+333 silly idealTree +-- util-deprecate@1.0.2
+333 silly idealTree +-- utils-merge@1.0.0
+333 silly idealTree +-- v8flags@2.0.11
+333 silly idealTree +-- validate-npm-package-license@3.0.1
+333 silly idealTree +-- vinyl-fs@1.0.0
+333 silly idealTree | +-- clone@0.2.0
+333 silly idealTree | +-- graceful-fs@3.0.11
+333 silly idealTree | +-- object-assign@2.1.1
+333 silly idealTree | +-- readable-stream@1.0.34
+333 silly idealTree | +-- strip-bom@1.0.0
+333 silly idealTree | +-- through2@0.6.5
+333 silly idealTree | `-- vinyl@0.4.6
+333 silly idealTree +-- vinyl-sourcemaps-apply@0.2.1
+333 silly idealTree +-- vinyl@0.5.3
+333 silly idealTree +-- which@1.2.11
+333 silly idealTree +-- window-size@0.1.0
+333 silly idealTree +-- wordwrap@0.0.2
+333 silly idealTree +-- wrappy@1.0.2
+333 silly idealTree +-- ws@1.1.1
+333 silly idealTree +-- wtf-8@1.0.0
+333 silly idealTree +-- xmlhttprequest-ssl@1.5.1
+333 silly idealTree +-- xtend@4.0.1
+333 silly idealTree +-- yargs@3.10.0
+333 silly idealTree | `-- camelcase@1.2.1
+333 silly idealTree `-- yeast@0.1.2
+334 silly generateActionsToTake Starting
+335 silly install generateActionsToTake
+336 silly generateActionsToTake Finishing
+337 silly diffTrees action count 6
+338 silly diffTrees add parserlib@1.0.0
+339 silly diffTrees add rcfinder@0.1.9
+340 silly diffTrees add csslint@1.0.3
+341 silly diffTrees add through2@2.0.1
+342 silly diffTrees add rcloader@0.2.1
+343 silly diffTrees update gulp-csslint@1.0.0
+344 silly decomposeActions action count 49
+345 silly decomposeActions fetch parserlib@1.0.0
+346 silly decomposeActions extract parserlib@1.0.0
+347 silly decomposeActions test parserlib@1.0.0
+348 silly decomposeActions preinstall parserlib@1.0.0
+349 silly decomposeActions build parserlib@1.0.0
+350 silly decomposeActions install parserlib@1.0.0
+351 silly decomposeActions postinstall parserlib@1.0.0
+352 silly decomposeActions finalize parserlib@1.0.0
+353 silly decomposeActions fetch rcfinder@0.1.9
+354 silly decomposeActions extract rcfinder@0.1.9
+355 silly decomposeActions test rcfinder@0.1.9
+356 silly decomposeActions preinstall rcfinder@0.1.9
+357 silly decomposeActions build rcfinder@0.1.9
+358 silly decomposeActions install rcfinder@0.1.9
+359 silly decomposeActions postinstall rcfinder@0.1.9
+360 silly decomposeActions finalize rcfinder@0.1.9
+361 silly decomposeActions fetch csslint@1.0.3
+362 silly decomposeActions extract csslint@1.0.3
+363 silly decomposeActions test csslint@1.0.3
+364 silly decomposeActions preinstall csslint@1.0.3
+365 silly decomposeActions build csslint@1.0.3
+366 silly decomposeActions install csslint@1.0.3
+367 silly decomposeActions postinstall csslint@1.0.3
+368 silly decomposeActions finalize csslint@1.0.3
+369 silly decomposeActions fetch through2@2.0.1
+370 silly decomposeActions extract through2@2.0.1
+371 silly decomposeActions test through2@2.0.1
+372 silly decomposeActions preinstall through2@2.0.1
+373 silly decomposeActions build through2@2.0.1
+374 silly decomposeActions install through2@2.0.1
+375 silly decomposeActions postinstall through2@2.0.1
+376 silly decomposeActions finalize through2@2.0.1
+377 silly decomposeActions fetch rcloader@0.2.1
+378 silly decomposeActions extract rcloader@0.2.1
+379 silly decomposeActions test rcloader@0.2.1
+380 silly decomposeActions preinstall rcloader@0.2.1
+381 silly decomposeActions build rcloader@0.2.1
+382 silly decomposeActions install rcloader@0.2.1
+383 silly decomposeActions postinstall rcloader@0.2.1
+384 silly decomposeActions finalize rcloader@0.2.1
+385 silly decomposeActions remove gulp-csslint@1.0.0
+386 silly decomposeActions fetch gulp-csslint@1.0.0
+387 silly decomposeActions extract gulp-csslint@1.0.0
+388 silly decomposeActions test gulp-csslint@1.0.0
+389 silly decomposeActions preinstall gulp-csslint@1.0.0
+390 silly decomposeActions build gulp-csslint@1.0.0
+391 silly decomposeActions install gulp-csslint@1.0.0
+392 silly decomposeActions postinstall gulp-csslint@1.0.0
+393 silly decomposeActions finalize gulp-csslint@1.0.0
+394 silly runTopLevelLifecycles Starting
+395 silly executeActions Starting
+396 silly install executeActions
+397 silly doSerial global-install 0
+398 silly doParallel fetch 6
+399 verbose correctMkdir C:\Users\tlee\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+400 verbose lock using C:\Users\tlee\AppData\Roaming\npm-cache\_locks\staging-2fab2f57b0e3f3ee.lock for C:\Users\tlee\ProdDev\optimizely\node_modules\.staging
+401 silly doParallel extract 6
+402 silly extract parserlib@1.0.0
+403 silly extract rcfinder@0.1.9
+404 silly extract csslint@1.0.3
+405 silly extract through2@2.0.1
+406 silly extract rcloader@0.2.1
+407 silly extract gulp-csslint@1.0.0
+408 verbose unbuild node_modules\.staging\rcfinder-e96facce
+409 verbose unbuild node_modules\.staging\parserlib-d2149224
+410 verbose unbuild node_modules\.staging\through2-2fb4f96f
+411 verbose unbuild node_modules\.staging\rcloader-6b917e9b
+412 verbose unbuild node_modules\.staging\gulp-csslint-5415791c
+413 verbose unbuild node_modules\.staging\csslint-1737a125
+414 silly gentlyRm C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\rcfinder-e96facce is being purged from base C:\Users\tlee\ProdDev\optimizely
+415 verbose gentlyRm don't care about contents; nuking C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\rcfinder-e96facce
+416 silly gentlyRm C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\parserlib-d2149224 is being purged from base C:\Users\tlee\ProdDev\optimizely
+417 verbose gentlyRm don't care about contents; nuking C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\parserlib-d2149224
+418 silly gentlyRm C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\through2-2fb4f96f is being purged from base C:\Users\tlee\ProdDev\optimizely
+419 verbose gentlyRm don't care about contents; nuking C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\through2-2fb4f96f
+420 silly gentlyRm C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\rcloader-6b917e9b is being purged from base C:\Users\tlee\ProdDev\optimizely
+421 verbose gentlyRm don't care about contents; nuking C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\rcloader-6b917e9b
+422 silly gentlyRm C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\gulp-csslint-5415791c is being purged from base C:\Users\tlee\ProdDev\optimizely
+423 verbose gentlyRm don't care about contents; nuking C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\gulp-csslint-5415791c
+424 verbose tar unpack C:\Users\tlee\AppData\Roaming\npm-cache\rcfinder\0.1.9\package.tgz
+425 verbose tar unpacking to C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\rcfinder-e96facce
+426 silly gentlyRm C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\rcfinder-e96facce is being purged
+427 verbose gentlyRm don't care about contents; nuking C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\rcfinder-e96facce
+428 verbose tar unpack C:\Users\tlee\AppData\Roaming\npm-cache\parserlib\1.0.0\package.tgz
+429 verbose tar unpacking to C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\parserlib-d2149224
+430 silly gentlyRm C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\parserlib-d2149224 is being purged
+431 verbose gentlyRm don't care about contents; nuking C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\parserlib-d2149224
+432 silly gentlyRm C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\csslint-1737a125 is being purged from base C:\Users\tlee\ProdDev\optimizely
+433 verbose gentlyRm don't care about contents; nuking C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\csslint-1737a125
+434 verbose tar unpack C:\Users\tlee\AppData\Roaming\npm-cache\through2\2.0.1\package.tgz
+435 verbose tar unpacking to C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\through2-2fb4f96f
+436 silly gentlyRm C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\through2-2fb4f96f is being purged
+437 verbose gentlyRm don't care about contents; nuking C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\through2-2fb4f96f
+438 verbose tar unpack C:\Users\tlee\AppData\Roaming\npm-cache\rcloader\0.2.1\package.tgz
+439 verbose tar unpacking to C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\rcloader-6b917e9b
+440 silly gentlyRm C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\rcloader-6b917e9b is being purged
+441 verbose gentlyRm don't care about contents; nuking C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\rcloader-6b917e9b
+442 verbose tar unpack C:\Users\tlee\AppData\Roaming\npm-cache\gulp-csslint\1.0.0\package.tgz
+443 verbose tar unpacking to C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\gulp-csslint-5415791c
+444 silly gentlyRm C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\gulp-csslint-5415791c is being purged
+445 verbose gentlyRm don't care about contents; nuking C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\gulp-csslint-5415791c
+446 silly gunzTarPerm modes [ '777', '666' ]
+447 silly gunzTarPerm modes [ '777', '666' ]
+448 verbose tar unpack C:\Users\tlee\AppData\Roaming\npm-cache\csslint\1.0.3\package.tgz
+449 verbose tar unpacking to C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\csslint-1737a125
+450 silly gentlyRm C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\csslint-1737a125 is being purged
+451 verbose gentlyRm don't care about contents; nuking C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\csslint-1737a125
+452 silly gunzTarPerm modes [ '777', '666' ]
+453 silly gunzTarPerm modes [ '777', '666' ]
+454 silly gunzTarPerm modes [ '777', '666' ]
+455 silly gunzTarPerm modes [ '777', '666' ]
+456 silly gunzTarPerm extractEntry package.json
+457 silly gunzTarPerm extractEntry package.json
+458 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+459 silly gunzTarPerm extractEntry package.json
+460 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+461 silly gunzTarPerm extractEntry package.json
+462 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+463 silly gunzTarPerm extractEntry package.json
+464 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+465 silly gunzTarPerm extractEntry package.json
+466 silly gunzTarPerm extractEntry README.md
+467 silly gunzTarPerm extractEntry LICENSE
+468 silly gunzTarPerm extractEntry .npmignore
+469 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+470 silly gunzTarPerm extractEntry README.md
+471 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+472 silly gunzTarPerm extractEntry .npmignore
+473 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+474 silly gunzTarPerm extractEntry README.md
+475 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+476 silly gunzTarPerm extractEntry .npmignore
+477 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+478 silly gunzTarPerm extractEntry README.md
+479 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+480 silly gunzTarPerm extractEntry README.md
+481 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+482 silly gunzTarPerm extractEntry LICENSE
+483 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+484 silly gunzTarPerm extractEntry README.md
+485 silly gunzTarPerm extractEntry LICENSE
+486 silly gunzTarPerm extractEntry dist/node-parserlib.js
+487 silly gunzTarPerm extractEntry dist/parserlib-core.js
+488 silly gunzTarPerm extractEntry index.js
+489 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+490 silly gunzTarPerm extractEntry .jshintrc
+491 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+492 silly gunzTarPerm extractEntry LICENSE
+493 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+494 silly gunzTarPerm extractEntry through2.js
+495 silly gunzTarPerm modified mode [ 'through2.js', 420, 438 ]
+496 silly gunzTarPerm extractEntry index.js
+497 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+498 silly gunzTarPerm extractEntry .jshintrc
+499 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+500 silly gunzTarPerm extractEntry index.js
+501 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+502 silly gunzTarPerm extractEntry CHANGELOG
+503 silly gunzTarPerm extractEntry dist/cli.js
+504 silly gunzTarPerm extractEntry dist/csslint-node.js
+505 silly gunzTarPerm extractEntry dist/parserlib-css.js
+506 silly gunzTarPerm extractEntry .travis.yml
+507 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+508 silly gunzTarPerm extractEntry test/finder.js
+509 silly gunzTarPerm modified mode [ 'test/finder.js', 420, 438 ]
+510 silly gunzTarPerm extractEntry .travis.yml
+511 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+512 silly gunzTarPerm extractEntry test/loader.js
+513 silly gunzTarPerm modified mode [ 'test/loader.js', 420, 438 ]
+514 silly gunzTarPerm extractEntry dist/parserlib-tests.js
+515 silly gunzTarPerm extractEntry test/.jshintrc
+516 silly gunzTarPerm modified mode [ 'test/.jshintrc', 420, 438 ]
+517 silly gunzTarPerm extractEntry test/fixtures/foo/bar.json
+518 silly gunzTarPerm modified mode [ 'test/fixtures/foo/bar.json', 420, 438 ]
+519 silly gunzTarPerm extractEntry test/fixtures/foo/foo/.baz
+520 silly gunzTarPerm modified mode [ 'test/fixtures/foo/foo/.baz', 420, 438 ]
+521 silly gunzTarPerm extractEntry test/fixtures/foo/foo/foo/foo/root
+522 silly gunzTarPerm modified mode [ 'test/fixtures/foo/foo/foo/foo/root', 420, 438 ]
+523 silly gunzTarPerm extractEntry test/get.js
+524 silly gunzTarPerm modified mode [ 'test/get.js', 420, 438 ]
+525 silly gunzTarPerm extractEntry dist/parserlib.js
+526 silly gunzTarPerm extractEntry test/.jshintrc
+527 silly gunzTarPerm modified mode [ 'test/.jshintrc', 420, 438 ]
+528 silly gunzTarPerm extractEntry test/fixtures/foo/bar.json
+529 silly gunzTarPerm modified mode [ 'test/fixtures/foo/bar.json', 420, 438 ]
+530 silly gunzTarPerm extractEntry test/fixtures/foo/foo/.baz
+531 silly gunzTarPerm modified mode [ 'test/fixtures/foo/foo/.baz', 420, 438 ]
+532 silly gunzTarPerm extractEntry test/fixtures/foo/foo/foo/foo/root
+533 silly gunzTarPerm modified mode [ 'test/fixtures/foo/foo/foo/foo/root', 420, 438 ]
+534 silly gentlyRm C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\gulp-csslint-5415791c\node_modules is being purged
+535 verbose gentlyRm don't care about contents; nuking C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\gulp-csslint-5415791c\node_modules
+536 silly gunzTarPerm extractEntry src/index.js
+537 silly gunzTarPerm extractEntry src/css/Colors.js
+538 silly gentlyRm C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\through2-2fb4f96f\node_modules is being purged
+539 verbose gentlyRm don't care about contents; nuking C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\through2-2fb4f96f\node_modules
+540 silly gunzTarPerm extractEntry src/css/PropertyName.js
+541 silly gunzTarPerm extractEntry src/css/PropertyValue.js
+542 silly gunzTarPerm extractEntry src/css/PropertyValueIterator.js
+543 silly gunzTarPerm extractEntry src/css/PropertyValuePart.js
+544 silly gunzTarPerm extractEntry src/css/Properties.js
+545 silly gunzTarPerm extractEntry src/css/Selector.js
+546 silly gunzTarPerm extractEntry src/css/SelectorPart.js
+547 silly gunzTarPerm extractEntry src/css/SelectorSubPart.js
+548 silly gunzTarPerm extractEntry src/css/Specificity.js
+549 silly gunzTarPerm extractEntry src/css/TokenStream.js
+550 silly gunzTarPerm extractEntry src/css/Parser.js
+551 silly gentlyRm C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\csslint-1737a125\node_modules is being purged
+552 verbose gentlyRm don't care about contents; nuking C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\csslint-1737a125\node_modules
+553 silly gunzTarPerm extractEntry src/css/Tokens.js
+554 silly gunzTarPerm extractEntry src/css/MediaQuery.js
+555 silly gunzTarPerm extractEntry src/css/Validation.js
+556 silly gunzTarPerm extractEntry src/css/MediaFeature.js
+557 silly gunzTarPerm extractEntry src/css/ValidationError.js
+558 silly gunzTarPerm extractEntry src/css/Matcher.js
+559 silly gunzTarPerm extractEntry src/css/ValidationTypes.js
+560 silly gunzTarPerm extractEntry src/css/Combinator.js
+561 silly gunzTarPerm extractEntry src/css/index.js
+562 silly gunzTarPerm extractEntry src/css/Pseudos.js
+563 silly gunzTarPerm extractEntry src/util/EventTarget.js
+564 silly gunzTarPerm extractEntry src/util/StringReader.js
+565 silly gunzTarPerm extractEntry src/util/SyntaxError.js
+566 silly gunzTarPerm extractEntry src/util/SyntaxUnit.js
+567 silly gunzTarPerm extractEntry src/util/TokenStreamBase.js
+568 silly gunzTarPerm extractEntry src/util/index.js
+569 silly gentlyRm C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\rcloader-6b917e9b\node_modules is being purged
+570 verbose gentlyRm don't care about contents; nuking C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\rcloader-6b917e9b\node_modules
+571 silly gentlyRm C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\rcfinder-e96facce\node_modules is being purged
+572 verbose gentlyRm don't care about contents; nuking C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\rcfinder-e96facce\node_modules
+573 silly gentlyRm C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\parserlib-d2149224\node_modules is being purged
+574 verbose gentlyRm don't care about contents; nuking C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\parserlib-d2149224\node_modules
+575 silly doParallel preinstall 6
+576 silly preinstall parserlib@1.0.0 C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\parserlib-d2149224
+577 info lifecycle parserlib@1.0.0~preinstall: parserlib@1.0.0
+578 silly preinstall rcfinder@0.1.9 C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\rcfinder-e96facce
+579 info lifecycle rcfinder@0.1.9~preinstall: rcfinder@0.1.9
+580 silly preinstall csslint@1.0.3 C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\csslint-1737a125
+581 info lifecycle csslint@1.0.3~preinstall: csslint@1.0.3
+582 silly preinstall through2@2.0.1 C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\through2-2fb4f96f
+583 info lifecycle through2@2.0.1~preinstall: through2@2.0.1
+584 silly preinstall rcloader@0.2.1 C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\rcloader-6b917e9b
+585 info lifecycle rcloader@0.2.1~preinstall: rcloader@0.2.1
+586 silly preinstall gulp-csslint@1.0.0 C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\gulp-csslint-5415791c
+587 info lifecycle gulp-csslint@1.0.0~preinstall: gulp-csslint@1.0.0
+588 silly lifecycle parserlib@1.0.0~preinstall: no script for preinstall, continuing
+589 silly lifecycle rcfinder@0.1.9~preinstall: no script for preinstall, continuing
+590 silly lifecycle csslint@1.0.3~preinstall: no script for preinstall, continuing
+591 silly lifecycle through2@2.0.1~preinstall: no script for preinstall, continuing
+592 silly lifecycle rcloader@0.2.1~preinstall: no script for preinstall, continuing
+593 silly lifecycle gulp-csslint@1.0.0~preinstall: no script for preinstall, continuing
+594 silly doReverseSerial remove 1
+595 silly remove C:\Users\tlee\ProdDev\optimizely\node_modules\gulp-csslint
+596 verbose unbuild node_modules\gulp-csslint
+597 silly gentlyRm C:\Users\tlee\ProdDev\optimizely\node_modules\gulp-csslint is being purged from base C:\Users\tlee\ProdDev\optimizely
+598 verbose gentlyRm don't care about contents; nuking C:\Users\tlee\ProdDev\optimizely\node_modules\gulp-csslint
+599 silly vacuum-fs purging C:\Users\tlee\ProdDev\optimizely\node_modules\gulp-csslint
+600 silly vacuum-fs quitting because other entries in C:\Users\tlee\ProdDev\optimizely\node_modules
+601 silly doSerial move 0
+602 silly doSerial finalize 6
+603 silly finalize C:\Users\tlee\ProdDev\optimizely\node_modules\parserlib
+604 verbose unlock done using C:\Users\tlee\AppData\Roaming\npm-cache\_locks\staging-2fab2f57b0e3f3ee.lock for C:\Users\tlee\ProdDev\optimizely\node_modules\.staging
+605 silly rollbackFailedOptional Starting
+606 silly rollbackFailedOptional Finishing
+607 silly runTopLevelLifecycles Finishing
+608 silly install printInstalled
+609 warn enoent ENOENT: no such file or directory, open 'C:\Users\tlee\ProdDev\optimizely\node_modules\bl\package.json'
+610 verbose enoent ENOENT: no such file or directory, open 'C:\Users\tlee\ProdDev\optimizely\node_modules\bl\package.json'
+610 verbose enoent This is most likely not a problem with npm itself
+610 verbose enoent and is related to npm not being able to find a file.
+611 warn enoent ENOENT: no such file or directory, open 'C:\Users\tlee\ProdDev\optimizely\node_modules\bin-version-check\package.json'
+612 verbose enoent ENOENT: no such file or directory, open 'C:\Users\tlee\ProdDev\optimizely\node_modules\bin-version-check\package.json'
+612 verbose enoent This is most likely not a problem with npm itself
+612 verbose enoent and is related to npm not being able to find a file.
+613 warn enoent ENOENT: no such file or directory, open 'C:\Users\tlee\ProdDev\optimizely\node_modules\globby\package.json'
+614 verbose enoent ENOENT: no such file or directory, open 'C:\Users\tlee\ProdDev\optimizely\node_modules\globby\package.json'
+614 verbose enoent This is most likely not a problem with npm itself
+614 verbose enoent and is related to npm not being able to find a file.
+615 verbose stack Error: EPERM: operation not permitted, rename 'C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\parserlib-d2149224' -> 'C:\Users\tlee\ProdDev\optimizely\node_modules\parserlib'
+615 verbose stack     at destStatted (C:\Users\tlee\AppData\Roaming\npm\node_modules\npm\lib\install\action\finalize.js:25:7)
+615 verbose stack     at C:\Users\tlee\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\polyfills.js:264:29
+615 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+615 verbose stack
+615 verbose stack Error: EPERM: operation not permitted, rename 'C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\parserlib-d2149224' -> 'C:\Users\tlee\ProdDev\optimizely\node_modules\parserlib'
+615 verbose stack     at Error (native)
+616 verbose cwd C:\Users\tlee\ProdDev\optimizely
+617 error Windows_NT 6.1.7601
+618 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\tlee\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-dev" "gulp-csslint"
+619 error node v4.6.1
+620 error npm  v4.0.0
+621 error path C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\parserlib-d2149224
+622 error code EPERM
+623 error errno -4048
+624 error syscall rename
+625 error Error: EPERM: operation not permitted, rename 'C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\parserlib-d2149224' -> 'C:\Users\tlee\ProdDev\optimizely\node_modules\parserlib'
+625 error     at destStatted (C:\Users\tlee\AppData\Roaming\npm\node_modules\npm\lib\install\action\finalize.js:25:7)
+625 error     at C:\Users\tlee\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\polyfills.js:264:29
+625 error     at FSReqWrap.oncomplete (fs.js:82:15)
+625 error
+625 error Error: EPERM: operation not permitted, rename 'C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\parserlib-d2149224' -> 'C:\Users\tlee\ProdDev\optimizely\node_modules\parserlib'
+625 error     at Error (native)
+625 error  { [Error: EPERM: operation not permitted, rename 'C:\Users\tlee\ProdDev\optimizely\node_modules\.staging\parserlib-d2149224' -> 'C:\Users\tlee\ProdDev\optimizely\node_modules\parserlib'] parent: 'optimizely' }
+626 error Please try running this command again as root/Administrator.
+627 verbose exit [ -4048, true ]

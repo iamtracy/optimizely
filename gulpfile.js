@@ -25,4 +25,6 @@ gulp.task('scripts', function() {
     .pipe(gulp.dest('./src/scripts'));
 });
 
+//csslint file1.css file2.css/
+
 gulp.task('default', ['watch', 'scripts', 'images']);
