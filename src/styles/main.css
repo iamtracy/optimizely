@@ -104,7 +104,7 @@ h4.keynote{
 
 span.name{
 	font-weight: 700;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	color: #fff;
 	margin-top: 1rem;
 }
@@ -113,13 +113,18 @@ span.speaker-title,
 .speaker-desc,
 .secondary-speaker-title{
 	font-weight: 300;
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	color: #fff;
 	margin: 0 auto;
 }
 
-.speaker-img{
+.primary-speaker-img{
+	max-width: 190px
+}
+
+.secondary-speaker-img{
 	margin-bottom: .75rem;
+	max-width: 180px;
 }
 
 .speaker-desc{
@@ -131,7 +136,7 @@ span.speaker-title,
 }
 
 .primary-speaker-section{
-	margin-top: 3rem;
+	margin-top: 4rem;
 	margin-bottom: 6rem;
 }
 
