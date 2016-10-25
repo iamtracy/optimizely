@@ -26,6 +26,10 @@ hr {
 	width: 100%;
 }
 
+a{
+	color: #959fa6;
+}
+
 /*************
 
 Typography
@@ -94,7 +98,7 @@ Section
 }
 
 .reg-embed{
-	height: 70vh;
+	height: 75vh;
 	width: 100vh;
 }
 
@@ -271,4 +275,33 @@ Section
 .trusted-company-section{
 	margin-top: 5.5rem;
 	margin-bottom: 7rem;
+}
+
+
+/*************
+
+Footer
+
+*************/
+
+.list-group{
+	font-size: .75rem;
+
+}
+
+.list-group-item{
+	background-color: transparent;
+	border: none;
+	padding: .75rem .25rem;
+	font-weight: 300;
+}
+
+.footer-section-first{
+	border-bottom: 1px solid #bdc1c4; 
+	margin-bottom: 1.15rem;
+	color: #797f82;
+}
+
+.social-media-icon{
+	max-width: 36px;
 }
