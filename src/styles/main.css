@@ -1,5 +1,13 @@
+.agenda-container {
+  max-width: 935px;
+}
 
-/*************/
+section{
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
 
 footer{
 	padding-top: 3rem;
@@ -10,7 +18,17 @@ footer{
 	max-width: 175px;
 }
 
-/*************/
+hr {
+  background-color: #000;
+}
+
+.img-fluid{
+	width: 100%;
+}
+
+a{
+	color: #959fa6;
+}
 
 /*************
 
@@ -18,10 +36,25 @@ Typography
 
 *************/
 
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+p,
+.speaker-title,
+.secondary-speaker-title,
+.name,
+.keynote-speaker,
+.session-description{
+	font-family: 'Karla', sans-serif;
+}
+
 h1,
 h5,
 p.tagline,
-h2.section-title{
+.section-title,
+.session-title,
+.trusted-company-tagline{
 	color: #002bcc;
 }
 
@@ -29,31 +62,8 @@ h1{
 	font-size: 7.5rem;
 }
 
-h2.section-title{
-	padding-top: 2rem;
-	padding-bottom: 2rem;  
-}
-
-h4.keynote{
-	font-weight: 700;
-	color: #fff;
-	margin-top: 1rem;
-}
-
-span.name{
-	font-weight: 700;
-	font-size: 1.2rem;
-	color: #fff;
-	margin-top: 1rem;
-}
-
-span.speaker-title,
-.speaker-desc{
-	font-weight: 300;
-	font-size: 1.4rem;
-	color: #fff;
-	width: 80%;
-	margin: 1rem auto;
+h2{
+	font-size: 2.75rem;
 }
 
 h5{
@@ -62,9 +72,9 @@ h5{
 }
 
 p.tagline{
-	font-size: 1.5rem;
-	font-weight: 300;
-	width: 45%;
+	font-size: 1.65rem;
+	font-weight: 400;
+	max-width: 600px;
 	margin: 0 auto;
 } 
 
@@ -80,18 +90,218 @@ Section
 
 *************/
 
-.reg-embed{
-	max-width: 1000px;
-	width: 100%;
-	height: 500px;
+.quick-reg-container{
+	position: relative;
+	background: blue;
+	max-width: 100%;
+	height: 100%;
 }
 
+.reg-embed{
+	height: 75vh;
+	width: 100vh;
+}
+
+.embed-responsive{
+	/*position: initial;*/
+}
+
+/*.embed-responsive-item-reg,
+.embed-responsive .embed-responsive-item, 
+.embed-responsive embed, 
+.embed-responsive iframe, 
+.embed-responsive object, 
+.embed-responsive video{
+	position: absolute;
+  bottom: 25%;
+  right: 30%;
+  border: 0;
+  top: initial;
+  left: initial;
+  width: initial;
+  height: initial;
+}
+*/
 /*************
 
 Speaker Section
 
 *************/
 
+h4.keynote-speaker{
+	font-weight: 700;
+	color: #fff;
+	margin-top: 1rem;
+}
+
+span.name{
+	font-weight: 700;
+	font-size: 1.1rem;
+	color: #fff;
+	margin-top: 1rem;
+}
+
+span.speaker-title,
+.speaker-desc,
+.secondary-speaker-title{
+	font-weight: 300;
+	font-size: 1.1rem;
+	color: #fff;
+	margin: 0 auto;
+}
+
+.primary-speaker-img{
+	max-width: 190px;
+	margin-bottom: .5rem;
+}
+
+.secondary-speaker-img{
+	margin-bottom: .9rem;
+	max-width: 180px;
+}
+
+.speaker-desc{
+	margin-top: 1rem;
+}
+
 .speaker-section{
 	background: #01a940;
+}
+
+.primary-speaker-section{
+	margin-top: 4rem;
+	margin-bottom: 6rem;
+}
+
+.secondary-speaker-section-first{
+	margin-bottom: 4.5rem;
+}
+.secondary-speaker-section-second{
+	margin-bottom: 3rem;
+}
+
+/*************
+
+Agenda and
+Sessions Section
+
+*************/
+
+.session-container{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.keynote-section{
+	margin-top: 4rem;
+}
+
+.session-title{
+	font-size: 1.3rem;
+}
+
+.session-time{
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+.session-description{
+	font-size: 1.1rem;
+	font-weight: 400;
+  line-height: 1.7rem;
+}
+
+/*************
+
+Register Now
+Section
+
+*************/
+
+.register-now{
+	background: #002bcc;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.register-now-button{
+	font-weight: 500;
+	font-size: 1.5rem;
+	color: #002bcc;
+	background: #fff;
+	padding: 12px 75px;
+}
+
+.sponsor-img-section{
+	margin-top: 3.25rem;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.sponsor-img-row-first{
+	margin-bottom: .55rem;
+}
+
+.sponsor-img-container{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.sponsor-img-container img{
+	border: 2px solid #ced2d5;
+}
+
+.trusted-company-img-section{
+	margin-top: 3.25rem;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.trusted-company-img-row-first{
+	margin-bottom: 1.75rem;
+}
+
+.trusted-company-img-container{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.trusted-company-tagline{
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin: 0 auto;
+}
+
+.trusted-company-section{
+	margin-top: 5.5rem;
+	margin-bottom: 7rem;
+}
+
+
+/*************
+
+Footer
+
+*************/
+
+.list-group{
+	font-size: .75rem;
+
+}
+
+.list-group-item{
+	background-color: transparent;
+	border: none;
+	padding: .75rem .25rem;
+	font-weight: 300;
+}
+
+.footer-section-first{
+	border-bottom: 1px solid #bdc1c4; 
+	margin-bottom: 1.15rem;
+	color: #797f82;
+}
+
+.social-media-icon{
+	max-width: 36px;
 }
