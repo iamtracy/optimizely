@@ -7,9 +7,14 @@ var gulp   = require('gulp'),
 gulp.task('serve', function() {
   gulp.src('./')
     .pipe(server({
+    	defaultFile: 'index.html',
       livereload: true,
       directoryListing: true,
-      open: true
+      open: true,
+      enable: true,
+        filter: function(filePath, cb) {
+          cb( !(/assets/.test(filePath)) );
+        }
     }));
 });
 

@@ -1,3 +1,4 @@
+
 .agenda-container {
   max-width: 935px;
 }
@@ -98,30 +99,10 @@ Section
 }
 
 .reg-embed{
-	height: 75vh;
-	width: 100vh;
+	height: 100vh;
+	width: 100%;
 }
 
-.embed-responsive{
-	/*position: initial;*/
-}
-
-/*.embed-responsive-item-reg,
-.embed-responsive .embed-responsive-item, 
-.embed-responsive embed, 
-.embed-responsive iframe, 
-.embed-responsive object, 
-.embed-responsive video{
-	position: absolute;
-  bottom: 25%;
-  right: 30%;
-  border: 0;
-  top: initial;
-  left: initial;
-  width: initial;
-  height: initial;
-}
-*/
 /*************
 
 Speaker Section
