@@ -1,8 +1,5 @@
-
-/*************/
-
-.container{
-
+.agenda-container {
+  max-width: 935px;
 }
 
 section{
@@ -29,8 +26,6 @@ hr {
 	width: 100%;
 }
 
-/*************/
-
 /*************
 
 Typography
@@ -45,7 +40,7 @@ p,
 .speaker-title,
 .secondary-speaker-title,
 .name,
-.keynote,
+.keynote-speaker,
 .session-description{
 	font-family: 'Karla', sans-serif;
 }
@@ -91,19 +86,45 @@ Section
 
 *************/
 
-.reg-embed{
-	max-width: 1000px;
-	width: 100%;
-	height: 500px;
+.quick-reg-container{
+	position: relative;
+	background: blue;
+	max-width: 100%;
+	height: 100%;
 }
 
+.reg-embed{
+	height: 70vh;
+	width: 100vh;
+}
+
+.embed-responsive{
+	/*position: initial;*/
+}
+
+/*.embed-responsive-item-reg,
+.embed-responsive .embed-responsive-item, 
+.embed-responsive embed, 
+.embed-responsive iframe, 
+.embed-responsive object, 
+.embed-responsive video{
+	position: absolute;
+  bottom: 25%;
+  right: 30%;
+  border: 0;
+  top: initial;
+  left: initial;
+  width: initial;
+  height: initial;
+}
+*/
 /*************
 
 Speaker Section
 
 *************/
 
-h4.keynote{
+h4.keynote-speaker{
 	font-weight: 700;
 	color: #fff;
 	margin-top: 1rem;
@@ -155,7 +176,6 @@ span.speaker-title,
 	margin-bottom: 3rem;
 }
 
-
 /*************
 
 Agenda and
@@ -166,6 +186,10 @@ Sessions Section
 .session-container{
 	margin-top: 2rem;
 	margin-bottom: 2rem;
+}
+
+.keynote-section{
+	margin-top: 4rem;
 }
 
 .session-title{
@@ -182,8 +206,6 @@ Sessions Section
 	font-weight: 400;
   line-height: 1.7rem;
 }
-
-
 
 /*************
 
