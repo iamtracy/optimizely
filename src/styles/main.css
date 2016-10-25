@@ -238,17 +238,19 @@ Section
 	padding-right: 10px;
 }
 
-.sponsor-img-row-first{
-	margin-bottom: .55rem;
-}
-
 .sponsor-img-container{
 	padding-left: 5px;
 	padding-right: 5px;
 }
 
 .sponsor-img-container img{
-	border: 2px solid #ced2d5;
+	padding: 5px;
+	position: relative;
+}
+
+.last-sponsor-img{
+	max-width: 220px;
+	margin-top: .75rem;
 }
 
 .trusted-company-img-section{
@@ -257,14 +259,17 @@ Section
 	padding-right: 10px;
 }
 
-.trusted-company-img-row-first{
+.trusted-company-img-row{
 	margin-bottom: 1.75rem;
 }
 
-.trusted-company-img-container{
-	padding-left: 5px;
-	padding-right: 5px;
-}
+/*.trusted-company-img-container img{
+	margin: 0 auto;
+	padding: 15px;
+  width: 100%;
+  max-width: 33.333333%;
+  float: left;
+}*/
 
 .trusted-company-tagline{
 	font-size: 1.5rem;
