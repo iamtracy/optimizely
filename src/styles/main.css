@@ -1,3 +1,7 @@
+html{
+	font-size: 16px;
+}
+
 
 .agenda-container {
   max-width: 935px;
@@ -11,8 +15,8 @@ iframe{
 section{
 	padding-left: 7%;
 	padding-right: 7%;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 3.5rem;
+	padding-bottom: 3.5rem;
 }
 
 footer{
@@ -300,3 +304,31 @@ Media Queries
     width: 100%;
 	}
 }
+
+
+@media (max-width: 543px) { ... }
+
+
+@media (min-width: 544px) and (max-width: 767px) { ... }
+
+
+@media (min-width: 0px) and (max-width: 991px) { 
+	html{
+		font-size: 12px;
+	} 
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+  html{
+		font-size: 14px;
+	} 
+}
+
+
+@media (min-width: 1200px) {
+  html{
+		font-size: 16px;
+	} 
+}
+
