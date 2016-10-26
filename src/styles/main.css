@@ -3,6 +3,11 @@
   max-width: 935px;
 }
 
+iframe{
+	border: none;
+}
+
+
 section{
 	padding-left: 7%;
 	padding-right: 7%;
@@ -281,4 +286,17 @@ Footer
 
 .social-media-icon{
 	max-width: 36px;
+}
+
+/*************
+
+Media Queries
+
+*************/
+
+@media screen and (min-width: 0px) and (max-width: 872px)  {
+	.reg-embed {
+    height: 115vh;
+    width: 100%;
+	}
 }
