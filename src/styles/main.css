@@ -2,7 +2,6 @@ html{
 	font-size: 16px;
 }
 
-
 .agenda-container {
   max-width: 935px;
 }
@@ -10,7 +9,6 @@ html{
 iframe{
 	border: none;
 }
-
 
 section{
 	padding-left: 7%;
@@ -108,7 +106,7 @@ Section
 }
 
 .reg-embed{
-	height: 100vh;
+	height: 101vh;
 	width: 100%;
 }
 
