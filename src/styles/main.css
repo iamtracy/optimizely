@@ -2,8 +2,12 @@ html{
 	font-size: 16px;
 }
 
+.container {
+  max-width: 1018px;
+}
+
 .agenda-container {
-  max-width: 935px;
+  max-width: 830px;
 }
 
 iframe{
@@ -11,8 +15,6 @@ iframe{
 }
 
 section{
-	padding-left: 7%;
-	padding-right: 7%;
 	padding-top: 3.5rem;
 	padding-bottom: 3.5rem;
 }
@@ -22,6 +24,7 @@ footer{
 	padding-bottom: 3rem;
 	background: #d3dbde;
 }
+
 .footer-logo{
 	max-width: 175px;
 }
@@ -62,7 +65,9 @@ h5,
 p.tagline,
 .section-title,
 .session-title,
-.trusted-company-tagline{
+.trusted-company-tagline,
+.social-tagline,
+.social-media-text{
 	color: #002bcc;
 }
 
@@ -108,6 +113,11 @@ Section
 .reg-embed{
 	height: 101vh;
 	width: 100%;
+}
+
+.video-container{
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 /*************
@@ -162,7 +172,7 @@ span.speaker-title,
 
 .primary-speaker-section{
 	margin-top: 4rem;
-	margin-bottom: 6rem;
+	margin-bottom: 5rem;
 }
 
 .secondary-speaker-section-first{
@@ -200,7 +210,7 @@ Sessions Section
 .session-description{
 	font-size: 1.1rem;
 	font-weight: 400;
-  line-height: 1.7rem;
+  line-height: 1.6rem;
 }
 
 /*************
@@ -265,7 +275,6 @@ Section
 	margin-bottom: 2.5rem;
 }
 
-
 /*************
 
 Footer
@@ -274,7 +283,6 @@ Footer
 
 .list-group{
 	font-size: .75rem;
-
 }
 
 .list-group-item{
@@ -300,17 +308,22 @@ Media Queries
 
 *************/
 
-@media screen and (min-width: 0px) and (max-width: 872px)  {
+@media screen and (min-width: 0px) and (max-width: 790px)  {
 	.reg-embed {
-    height: 115vh;
     width: 100%;
+    height: 150vh;
 	}
 }
 
+@media screen and (min-width: 0px) and (max-width: 767px)  {
+	.secondary-speaker-container {
+    margin-bottom: 2rem;
+	}
+}
 
 @media (max-width: 543px) { 
 	html{
-		font-size: 13.5px;
+		font-size: 14px;
 	}  
 	.primary-speaker-img,
 	.secondary-speaker-img {
@@ -325,6 +338,18 @@ Media Queries
 	}
 }
 
+@media (max-width: 680px) { 
+	.reg-embed {
+    height: 160vh;
+	}
+	p.tagline {
+    font-size: 1.5rem;
+	}
+	.register-now-button {
+    font-size: 1.19rem;
+	}
+}
+
 @media (min-width: 544px) and (max-width: 1199px) { 
   html{
 		font-size: 14px;
@@ -336,4 +361,3 @@ Media Queries
 		font-size: 16px;
 	} 
 }
-
