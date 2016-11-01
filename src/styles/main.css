@@ -60,15 +60,20 @@ p,
 	font-family: 'Karla', sans-serif;
 }
 
-h1,
+.register-now-button,
+.video-title
+
+
+,
 h5,
 p.tagline,
 .section-title,
 .session-title,
 .trusted-company-tagline,
 .social-tagline,
-.social-media-text{
-	color: #002bcc;
+.social-media-text,
+.add-to-calendar{
+	color: #002bcc !important;
 }
 
 h1{
@@ -241,8 +246,8 @@ Section
 }
 
 .sponsor-img-container{
-	padding-left: 5px;
-	padding-right: 5px;
+/*	padding-left: 5px;
+	padding-right: 5px;*/
 }
 
 .sponsor-img-container img{
@@ -251,7 +256,7 @@ Section
 }
 
 .last-sponsor-img{
-	max-width: 220px;
+	max-width: 220px !important;
 }
 
 .trusted-company-img-section{
@@ -295,7 +300,7 @@ Footer
 .footer-section-first{
 	border-bottom: 1px solid #bdc1c4; 
 	margin-bottom: 1.15rem;
-	color: #797f82;
+	color: #787879;
 }
 
 .social-media-icon{
@@ -340,7 +345,7 @@ Media Queries
 
 @media (max-width: 680px) { 
 	.reg-embed {
-    height: 160vh;
+    height: 170vh;
 	}
 	p.tagline {
     font-size: 1.5rem;
@@ -360,4 +365,190 @@ Media Queries
   html{
 		font-size: 16px;
 	} 
+}
+
+
+*,HTML,body{
+font-family: 'PostGrotesk', sans-serif !important;
+}
+
+/*@import url(https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=XXXXXX);
+@import url(https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=XXXXXX);
+@import url(https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=XXXXXX);*/
+
+/*************
+
+Bold - Normal
+
+*************/
+
+@font-face {
+	font-family: 'PostGrotesk';
+	src:url('https://vts.inxpo.com/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452715'); /* EOT FILE TYPE */
+	src:url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452715?#iefix') format('embedded-opentype'), /*EOT FILE TYPE*/
+	url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452716') format('woff'), /*WOFF FILE TYPE*/
+	url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452722') format('truetype'); /*TTF FILE TYPE*/
+	font-weight: 700;
+	font-style: normal;
+}
+
+/*************
+
+Bold - Italic
+
+*************/
+
+@font-face {
+	font-family: 'PostGrotesk';
+	src:url('https://vts.inxpo.com/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452749'); /* EOT FILE TYPE */
+	src:url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452715?#iefix') format('embedded-opentype'), /*EOT FILE TYPE*/
+	url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452750') format('woff'), /*WOFF FILE TYPE*/
+	url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452751') format('truetype'); /*TTF FILE TYPE*/
+	font-weight: 700;
+	font-style: italic;
+}
+
+/*************
+
+Medium - Normal
+
+*************/
+
+@font-face {
+	font-family: 'PostGrotesk';
+	src:url('https://vts.inxpo.com/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452762'); /* EOT FILE TYPE */
+	src:url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452762?#iefix') format('embedded-opentype'), /*EOT FILE TYPE*/
+	url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452763') format('woff'), /*WOFF FILE TYPE*/
+	url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452764') format('truetype'); /*TTF FILE TYPE*/
+	font-weight: 400;
+	font-style: normal;
+}
+
+/*************
+
+Medium - Italic
+
+*************/
+
+@font-face {
+	font-family: 'PostGrotesk';
+	src:url('https://vts.inxpo.com/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452715'); /* EOT FILE TYPE */
+	src:url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452715?#iefix') format('embedded-opentype'), /*EOT FILE TYPE*/
+	url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452750') format('woff'), /*WOFF FILE TYPE*/
+	url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452751') format('truetype'); /*TTF FILE TYPE*/
+	font-weight: 400;
+	font-style: italic;
+}
+
+/*************
+
+Normal - Normal
+
+*************/
+
+@font-face {
+	font-family: 'PostGrotesk';
+	src:url('https://vts.inxpo.com/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452723'); /* EOT FILE TYPE */
+	src:url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452723?#iefix') format('embedded-opentype'), /*EOT FILE TYPE*/
+	url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452725') format('woff'), /*WOFF FILE TYPE*/
+	url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452724') format('truetype'); /*TTF FILE TYPE*/
+	font-weight: 500;
+	font-style: normal;
+}
+
+/*************
+
+Book - Normal
+
+*************/
+
+@font-face {
+	font-family: 'PostGrotesk';
+	src:url('https://vts.inxpo.com/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452785'); /* EOT FILE TYPE */
+	src:url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452785?#iefix') format('embedded-opentype'), /*EOT FILE TYPE*/
+	url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452790') format('woff'), /*WOFF FILE TYPE*/
+	url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452787') format('truetype'); /*TTF FILE TYPE*/
+	font-weight: 600;
+	font-style: normal;
+}
+
+/*************
+
+Book - Italic
+
+*************/
+
+@font-face {
+	font-family: 'PostGrotesk';
+	src:url('https://vts.inxpo.com/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452753'); /* EOT FILE TYPE */
+	src:url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452753?#iefix') format('embedded-opentype'), /*EOT FILE TYPE*/
+	url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452754') format('woff'), /*WOFF FILE TYPE*/
+	url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452752') format('truetype'); /*TTF FILE TYPE*/
+	font-weight: 600;
+	font-style: italic;
+}
+
+/*************
+
+Light - Normal
+
+*************/
+
+@font-face {
+	font-family: 'PostGrotesk';
+	src:url('https://vts.inxpo.com/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452755'); /* EOT FILE TYPE */
+	src:url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452755?#iefix') format('embedded-opentype'), /*EOT FILE TYPE*/
+	url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452756') format('woff'), /*WOFF FILE TYPE*/
+	url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452757') format('truetype'); /*TTF FILE TYPE*/
+	font-weight: 300;
+	font-style: normal;
+}
+
+/*************
+
+Light - Italic
+
+*************/
+
+@font-face {
+	font-family: 'PostGrotesk';
+	src:url('https://vts.inxpo.com/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452759'); /* EOT FILE TYPE */
+	src:url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452759?#iefix') format('embedded-opentype'), /*EOT FILE TYPE*/
+	url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452760') format('woff'), /*WOFF FILE TYPE*/
+	url('https://vts.inxpo.com/scripts/server.nxp?LASCmd=AI:4;F:LBSATTACH!V&AttachmentKey=1452758') format('truetype'); /*TTF FILE TYPE*/
+	font-weight: 300;
+	font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: PostGrotesk;
+  src: url(https://presentations.inxpo.com/Shows/Optimizely/10-2016/custom/Fonts/PostGortesk2/PostGrotesk-Light.otf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: PostGrotesk;
+  src: url(https://presentations.inxpo.com/Shows/Optimizely/10-2016/custom/Fonts/PostGortesk2/PostGrotesk-Medium.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: PostGrotesk;
+  src: url(https://presentations.inxpo.com/Shows/Optimizely/10-2016/custom/Fonts/PostGortesk2/PostGrotesk-Book.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: PostGrotesk;
+  src: url(https://presentations.inxpo.com/Shows/Optimizely/10-2016/custom/Fonts/PostGortesk2/PostGrotesk-Bold.otf);
+  font-weight: bold;
 }

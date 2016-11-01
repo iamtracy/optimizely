@@ -1,4 +1,16 @@
-function GetUTMValues()
+
+<input name="UDF1024" value="" type="hidden"> <!-- UTM Source value -->
+<input name="UDF1025" value="" type="hidden"> <!-- UTM Campaign value -->
+<input name="UDF1026" value="" type="hidden"> <!-- UTM Medium value -->   
+<input name="UDF1027" value="" type="hidden"> <!-- UTM Content value -->
+<input name="UDF1028" value="" type="hidden"> <!-- OTM Source value -->
+<input name="UDF1029" value="" type="hidden"> <!-- OTM Medium value -->
+<input name="UDF1030" value="" type="hidden"> <!-- OTM Content value -->
+<input name="UDF1031" value="" type="hidden"> <!-- OTM Campaign value -->
+
+
+<script type="text/javascript">
+  function GetUTMValues()
 {
   if (g_cMode = "0")
   {
@@ -29,20 +41,19 @@ function GetUTMValues()
       oForm.UDF1031.value = cOTMCampaignValue;
 
     
- 
-    
-    
-    //console.logr(oForm.UDF1012.value);
-    //console.logr(oForm.UDF1013.value);
-    //console.log(oForm.UDF1014.value);
-    //console.log(oForm.UDF1016.value);
-    //console.log(oForm.UDF1017.value);
-    //console.log(oForm.UDF1018.value);
-    //console.log(oForm.UDF1019.value);
-    //console.log(oForm.UDF1020.value);
+    console.log(oForm.UDF1024.value);
+    console.log(oForm.UDF1025.value);
+    console.log(oForm.UDF1026.value);
+    console.log(oForm.UDF1027.value);
+    console.log(oForm.UDF1028.value);
+    console.log(oForm.UDF1029.value);
+    console.log(oForm.UDF1030.value);
+    console.log(oForm.UDF1031.value);
   }
 }
 GetUTMValues();
+</script>
+
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
