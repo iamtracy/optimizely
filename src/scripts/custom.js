@@ -74,3 +74,8 @@ var google_remarketing_only = false;
 <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1011114068/?label=7Eg-CNfTkmsQ1MCR4gM&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>
+
+
+.RegTxt {
+  margin-bottom: 1.2rem;
+}
